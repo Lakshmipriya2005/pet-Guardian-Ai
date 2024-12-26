@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Guardian</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./images/logo.jpeg" alt="logo" class="logo" />
+      </div>
+
+      <ul>
+        <li><a href="#home-section" id="home-link">Home</a></li>
+        <li><a href="#about-section" id="about-link">Dietry Chart</a></li>
+        <li><a href="http://127.0.0.1:5000/" id="services-link">Services</a></li>
+        <li><a href="#contact-section" id="contact-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Content Area -->
+    <div id="content">
+      <!-- Home Section with Carousel -->
+      <!-- Home Section with Carousel -->
+      <section id="home-section" class="active-section">
+        <!-- Intro Text Over the Carousel -->
+        <div class="intro-text">
+          <h1>Welcome to Pet Guardian</h1>
+          <p>Ensuring the safety and happiness of your pets</p>
+          <button onClick="redirectToSection()">Learn More</button>
+        </div>
+      </section>
+      <script>
+        function redirectToSection() {
+            document.getElementById("about-section").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+      <section id="about-section" class="section">
+        <h1>Dietary Chart for Pets</h1>
+
+        <!-- Animal Cards with Buttons and Hidden Charts -->
+        <div class="animal-cards">
+          <!-- Example for Dog -->
+          <div class="animal-card dog">
+            <img src="./images/dog.jpeg" alt="Dog" class="animal-image" />
+            <button onclick="toggleDietChart('dog-chart')">
+              Show Dog Diet
+            </button>
+            <div id="dog-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('dog-chart')">
+                Close
+              </button>
+              <h2>Dog</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Puppies (up to 12 months)</td>
+                    <td>High protein, DHA, calcium for bone growth.</td>
+                    <td>
+                      1. Puppy kibble.<br />2. Optional: Cooked eggs or lean
+                      chicken.
+                    </td>
+                    <td>
+                      Feed 3-4 small meals per day. Keep fresh water available.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Dogs (1-7 years)</td>
+                    <td>
+                      Balanced protein, fats, carbohydrates, Omega-3, Omega-6.
+                    </td>
+                    <td>
+                      1. High-quality kibble.<br />2. Optional: Lean meats or
+                      vegetables.
+                    </td>
+                    <td>
+                      Feed 2 meals per day. Avoid raw bones and toxic foods.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Senior Dogs (7+ years)</td>
+                    <td>
+                      Lower fat, moderate protein, fiber, joint supplements.
+                    </td>
+                    <td>
+                      1. Senior dog food.<br />2. Optional: Steamed veggies.
+                    </td>
+                    <td>Feed 2-3 smaller meals per day. Monitor weight.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Cat -->
+          <div class="animal-card cat">
+            <img src="./images/cat.jpeg" alt="Cat" class="animal-image" />
+            <button onclick="toggleDietChart('cat-chart')">
+              Show Cat Diet
+            </button>
+            <div id="cat-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('cat-chart')">
+                Close
+              </button>
+              <h2>Cat</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kittens (up to 12 months)</td>
+                    <td>High protein, high fat, DHA, calcium, phosphorus.</td>
+                    <td>
+                      1. High-quality kitten food (wet or dry).<br />2.
+                      Optional: Small amounts of plain, cooked chicken or fish.
+                    </td>
+                    <td>Feed 4 small meals per day. Avoid cow's milk.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Cats (1-7 years)</td>
+                    <td>
+                      Balanced protein, fat, taurine, Omega-3, Omega-6,
+                      vitamins, minerals.
+                    </td>
+                    <td>
+                      1. 75% wet food + 25% dry food.<br />2. Optional: Cooked
+                      lean meat.
+                    </td>
+                    <td>
+                      Feed 2 meals per day. Avoid onions, garlic, chocolate.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Senior Cats (7+ years)</td>
+                    <td>
+                      Lower fat, moderate protein, increased fiber, omega fatty
+                      acids, joint supplements.
+                    </td>
+                    <td>
+                      1. Senior cat food.<br />2. Optional: Soft, low-fat meats.
+                    </td>
+                    <td>Smaller, frequent meals. Consider soft food.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Hamster -->
+          <div class="animal-card hams">
+            <img src="./images/hams.jpeg" alt="Hamster" class="animal-image" />
+            <button onclick="toggleDietChart('hamster-chart')">
+              Show Hamster Diet
+            </button>
+            <div id="hamster-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('hamster-chart')"
+              >
+                Close
+              </button>
+              <h2>Hamster</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>All Stages</td>
+                    <td>High fiber, low sugar, balanced proteins, and fats.</td>
+                    <td>
+                      1. Pellets, fresh vegetables.<br />2. Occasional fruits.
+                    </td>
+                    <td>Avoid citrus fruits. Provide fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Example for Cow -->
+          <div class="animal-card cow">
+            <img src="./images/cow.jpeg" alt="Cow" class="animal-image" />
+            <button onclick="toggleDietChart('cow-chart')">
+              Show Cow Diet
+            </button>
+            <div id="cow-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('cow-chart')">
+                Close
+              </button>
+              <h2>Cow</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 6 months)</td>
+                    <td>
+                      High protein, vitamins, minerals, milk, grain starter.
+                    </td>
+                    <td>1. Milk or milk replacer.<br />2. Grain starter.</td>
+                    <td>Feed milk regularly. Introduce solid feed slowly.</td>
+                  </tr>
+                  <tr>
+                    <td>Growing Cows</td>
+                    <td>Balanced energy, protein, fiber, minerals.</td>
+                    <td>
+                      1. Grass, hay.<br />2. Optional: Corn, soybean meal.
+                    </td>
+                    <td>Ensure proper grazing and water access.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Cows</td>
+                    <td>High fiber, moderate protein, balanced minerals.</td>
+                    <td>1. Hay, silage.<br />2. Pasture grazing.</td>
+                    <td>Provide mineral supplements and fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Goat -->
+          <div class="animal-card goat">
+            <img src="./images/goat.jpeg" alt="Goat" class="animal-image" />
+            <button onclick="toggleDietChart('goat-chart')">
+              Show Goat Diet
+            </button>
+            <div id="goat-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('goat-chart')">
+                Close
+              </button>
+              <h2>Goat</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kids (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Milk.<br />2. Grass, small grains.</td>
+                    <td>
+                      Ensure frequent feeding. Transition to hay gradually.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Growing Goats</td>
+                    <td>Balanced protein, fiber, vitamins, minerals.</td>
+                    <td>1. Pasture, hay.<br />2. Grain supplements.</td>
+                    <td>Provide enough grazing area and fresh water.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Goats</td>
+                    <td>Fiber-rich, moderate protein, mineral supplements.</td>
+                    <td>1. Grass hay, legumes.<br />2. Grain supplements.</td>
+                    <td>
+                      Provide salt and mineral licks. Monitor body condition.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Fox -->
+          <div class="animal-card fox">
+            <img src="./images/fox.jpeg" alt="Fox" class="animal-image" />
+            <button onclick="toggleDietChart('fox-chart')">
+              Show Fox Diet
+            </button>
+            <div id="fox-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('fox-chart')">
+                Close
+              </button>
+              <h2>Fox</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cubs (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, B, D.</td>
+                    <td>1. Meat-based puppy food.<br />2. Small prey items.</td>
+                    <td>Provide fresh water and monitor food intake.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Foxes</td>
+                    <td>Protein-rich, low-fat, vitamins A, D, E.</td>
+                    <td>
+                      1. Raw meat.<br />2. Supplement with fruits and veggies.
+                    </td>
+                    <td>Feed 1-2 meals a day. Monitor for weight gain.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Lion -->
+          <div class="animal-card lion">
+            <img src="./images/lion.jpeg" alt="Lion" class="animal-image" />
+            <button onclick="toggleDietChart('lion-chart')">
+              Show Lion Diet
+            </button>
+            <div id="lion-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('lion-chart')">
+                Close
+              </button>
+              <h2>Lion</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cubs (up to 1 year)</td>
+                    <td>High protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Raw meat.<br />2. Small prey animals.</td>
+                    <td>
+                      Feed smaller portions frequently. Ensure fresh water.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Lions</td>
+                    <td>High protein, moderate fat, vitamins A, B, D.</td>
+                    <td>
+                      1. Large portions of raw meat.<br />2. Optional: Bones for
+                      calcium.
+                    </td>
+                    <td>
+                      Feed 1-2 times daily. Ensure fresh water at all times.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Chicken -->
+          <div class="animal-card chick">
+            <img
+              src="./images/chicken.jpeg"
+              alt="Chicken"
+              class="animal-image"
+            />
+            <button onclick="toggleDietChart('chicken-chart')">
+              Show Chicken Diet
+            </button>
+            <div id="chicken-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('chicken-chart')"
+              >
+                Close
+              </button>
+              <h2>Chicken</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Chicks (up to 8 weeks)</td>
+                    <td>High protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Starter feed.<br />2. Small grains.</td>
+                    <td>
+                      Feed small amounts frequently. Provide constant water.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Chickens</td>
+                    <td>Balanced protein, calcium, vitamins.</td>
+                    <td>1. Layer feed.<br />2. Grains, fruits, vegetables.</td>
+                    <td>Ensure constant access to water. Avoid overfeeding.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Example for Donkey -->
+          <div class="animal-card donkey">
+            <img src="./images/donkey.jpeg" alt="Donkey" class="animal-image" />
+            <button onclick="toggleDietChart('donkey-chart')">
+              Show Donkey Diet
+            </button>
+            <div id="donkey-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('donkey-chart')"
+              >
+                Close
+              </button>
+              <h2>Donkey</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Foals (up to 6 months)</td>
+                    <td>High protein, calcium, phosphorus.</td>
+                    <td>
+                      1. Mother's milk.<br />2. Small amounts of grass hay.
+                    </td>
+                    <td>
+                      Feed small meals frequently. Gradually introduce solid
+                      feed.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Donkeys</td>
+                    <td>High fiber, moderate protein, low sugar.</td>
+                    <td>1. Straw, hay.<br />2. Pasture grazing.</td>
+                    <td>
+                      Avoid too much sugary feed. Provide constant access to
+                      water.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Duck -->
+          <div class="animal-card duck">
+            <img src="./images/duck.jpeg" alt="Duck" class="animal-image" />
+            <button onclick="toggleDietChart('duck-chart')">
+              Show Duck Diet
+            </button>
+            <div id="duck-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('duck-chart')">
+                Close
+              </button>
+              <h2>Duck</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ducklings (up to 8 weeks)</td>
+                    <td>High protein, vitamins A, D, E.</td>
+                    <td>1. Starter feed.<br />2. Small grains, veggies.</td>
+                    <td>Ensure clean water for drinking. Avoid bread.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Ducks</td>
+                    <td>Balanced protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Layer feed.<br />2. Grains, veggies, insects.</td>
+                    <td>Provide clean water. Avoid moldy feed.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Elephant -->
+          <div class="animal-card ele">
+            <img src="./images/ele.jpeg" alt="Elephant" class="animal-image" />
+            <button onclick="toggleDietChart('elephant-chart')">
+              Show Elephant Diet
+            </button>
+            <div id="elephant-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('elephant-chart')"
+              >
+                Close
+              </button>
+              <h2>Elephant</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 2 years)</td>
+                    <td>High protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Mother's milk.<br />2. Small amounts of hay.</td>
+                    <td>
+                      Feed small amounts frequently. Introduce solid feed
+                      slowly.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Elephants</td>
+                    <td>High fiber, low fat, vitamins A, B, D, E.</td>
+                    <td>1. Grass, hay, leaves.<br />2. Fruits, veggies.</td>
+                    <td>Ensure a large amount of fresh water daily.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Elk -->
+          <div class="animal-card elk">
+            <img src="./images/elk.jpeg" alt="Elk" class="animal-image" />
+            <button onclick="toggleDietChart('elk-chart')">
+              Show Elk Diet
+            </button>
+            <div id="elk-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('elk-chart')">
+                Close
+              </button>
+              <h2>Elk</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Milk.<br />2. Small amounts of grass.</td>
+                    <td>Provide access to pasture. Gradually introduce hay.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Elk</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grass, leaves.<br />2. Bark, shrubs.</td>
+                    <td>Ensure adequate grazing space and fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Horse -->
+          <div class="animal-card horse">
+            <img src="./images/horse.jpeg" alt="Horse" class="animal-image" />
+            <button onclick="toggleDietChart('horse-chart')">
+              Show Horse Diet
+            </button>
+            <div id="horse-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('horse-chart')">
+                Close
+              </button>
+              <h2>Horse</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Foals (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Mother's milk.<br />2. Small amounts of hay.</td>
+                    <td>
+                      Feed small meals frequently. Introduce solid feed
+                      gradually.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Horses</td>
+                    <td>High fiber, moderate protein, vitamins.</td>
+                    <td>1. Hay, pasture grass.<br />2. Grains, supplements.</td>
+                    <td>
+                      Provide constant access to water. Avoid overfeeding
+                      grains.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Hyena -->
+          <div class="animal-card heyna">
+            <img src="./images/heyna.jpeg" alt="Hyena" class="animal-image" />
+            <button onclick="toggleDietChart('hyena-chart')">
+              Show Hyena Diet
+            </button>
+            <div id="hyena-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('hyena-chart')">
+                Close
+              </button>
+              <h2>Hyena</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cubs (up to 6 months)</td>
+                    <td>High protein, vitamins A, D.</td>
+                    <td>1. Mother's milk.<br />2. Small amounts of meat.</td>
+                    <td>Feed frequently. Provide access to clean water.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Hyenas</td>
+                    <td>Protein-rich, high fat, calcium.</td>
+                    <td>1. Raw meat.<br />2. Bones, carrion.</td>
+                    <td>Feed 1-2 times daily. Ensure access to fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Monkey -->
+          <div class="animal-card monkey">
+            <img src="./images/monkey.jpeg" alt="Monkey" class="animal-image" />
+            <button onclick="toggleDietChart('monkey-chart')">
+              Show Monkey Diet
+            </button>
+            <div id="monkey-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('monkey-chart')"
+              >
+                Close
+              </button>
+              <h2>Monkey</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Infants (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>
+                      1. Mother's milk.<br />2. Fruits, small amounts of
+                      vegetables.
+                    </td>
+                    <td>Feed small portions frequently.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Monkeys</td>
+                    <td>Balanced protein, vitamins, minerals.</td>
+                    <td>1. Fruits, vegetables.<br />2. Insects, grains.</td>
+                    <td>Provide fresh water and a balanced diet.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Buffalo -->
+          <div class="animal-card buff">
+            <img src="./images/buff.jpeg" alt="Buffalo" class="animal-image" />
+            <button onclick="toggleDietChart('buffalo-chart')">
+              Show Buffalo Diet
+            </button>
+            <div id="buffalo-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('buffalo-chart')"
+              >
+                Close
+              </button>
+              <h2>Buffalo</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Mother's milk.<br />2. Grass and starter feed.</td>
+                    <td>
+                      Feed small portions frequently. Introduce grass gradually.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Buffalo</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grass, hay, silage.<br />2. Pasture grazing.</td>
+                    <td>
+                      Ensure constant access to water and sufficient grazing
+                      space.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Black-Tailed Deer -->
+          <div class="animal-card balckd">
+            <img
+              src="./images/blkd.jpeg"
+              alt="Black-Tailed Deer"
+              class="animal-image"
+            />
+            <button onclick="toggleDietChart('black-tailed-deer-chart')">
+              Show Black-Tailed Deer Diet
+            </button>
+            <div id="black-tailed-deer-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('black-tailed-deer-chart')"
+              >
+                Close
+              </button>
+              <h2>Black-Tailed Deer</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fawns (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D, E.</td>
+                    <td>1. Mother's milk.<br />2. Small amounts of grass.</td>
+                    <td>
+                      Provide fresh, clean water. Gradually increase solid feed.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Black-Tailed Deer</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grass, shrubs, twigs.<br />2. Fruits, nuts.</td>
+                    <td>
+                      Provide access to diverse vegetation for optimal
+                      nutrition.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Deer (General) -->
+          <div class="animal-card deer">
+            <img src="./images/deer.jpeg" alt="Deer" class="animal-image" />
+            <button onclick="toggleDietChart('deer-chart')">
+              Show Deer Diet
+            </button>
+            <div id="deer-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('deer-chart')">
+                Close
+              </button>
+              <h2>Deer</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fawns (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>
+                      1. Mother's milk.<br />2. Small amounts of fresh grass.
+                    </td>
+                    <td>Provide access to clean water and fresh vegetation.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Deer</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grass, leaves.<br />2. Twigs, bark, fruits.</td>
+                    <td>
+                      Ensure a variety of vegetation for balanced nutrition.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Example for Moose -->
+          <div class="animal-card moose">
+            <img src="./images/moose.jpeg" alt="Moose" class="animal-image" />
+            <button onclick="toggleDietChart('moose-chart')">
+              Show Moose Diet
+            </button>
+            <div id="moose-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('moose-chart')">
+                Close
+              </button>
+              <h2>Moose</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>
+                      1. Mother's milk.<br />2. Small amounts of vegetation.
+                    </td>
+                    <td>Ensure gradual introduction to solid foods.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Moose</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Leaves, bark.<br />2. Aquatic plants.</td>
+                    <td>Provide access to grazing and fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Mule Deer -->
+          <div class="animal-card muld">
+            <img
+              src="./images/muld.jpeg"
+              alt="Mule Deer"
+              class="animal-image"
+            />
+            <button onclick="toggleDietChart('mule-deer-chart')">
+              Show Mule Deer Diet
+            </button>
+            <div id="mule-deer-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('mule-deer-chart')"
+              >
+                Close
+              </button>
+              <h2>Mule Deer</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fawns (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Milk.<br />2. Small amounts of forage.</td>
+                    <td>Introduce gradually to solid foods.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Mule Deer</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grasses, shrubs.<br />2. Nuts, berries.</td>
+                    <td>Ensure access to grazing space and water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Pig -->
+          <div class="animal-card pig">
+            <img src="./images/pig.jpeg" alt="Pig" class="animal-image" />
+            <button onclick="toggleDietChart('pig-chart')">
+              Show Pig Diet
+            </button>
+            <div id="pig-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('pig-chart')">
+                Close
+              </button>
+              <h2>Pig</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Piglets (up to 8 weeks)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Mother's milk.<br />2. Starter feed.</td>
+                    <td>Introduce solid food gradually. Ensure fresh water.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Pigs</td>
+                    <td>Balanced diet, protein, fiber, minerals.</td>
+                    <td>1. Grains, fruits.<br />2. Vegetables, root crops.</td>
+                    <td>
+                      Avoid overfeeding. Provide constant access to water.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Rabbit -->
+          <div class="animal-card rabbit">
+            <img src="./images/rabbit.jpeg" alt="Rabbit" class="animal-image" />
+            <button onclick="toggleDietChart('rabbit-chart')">
+              Show Rabbit Diet
+            </button>
+            <div id="rabbit-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('rabbit-chart')"
+              >
+                Close
+              </button>
+              <h2>Rabbit</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kits (up to 6 weeks)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Mother's milk.<br />2. Small amounts of hay.</td>
+                    <td>
+                      Introduce solid food gradually. Provide fresh water.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Rabbits</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grass, hay.<br />2. Leafy greens, carrots.</td>
+                    <td>Provide constant access to hay and water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Reindeer -->
+          <div class="animal-card reind">
+            <img
+              src="./images/reind.jpeg"
+              alt="Reindeer"
+              class="animal-image"
+            />
+            <button onclick="toggleDietChart('reindeer-chart')">
+              Show Reindeer Diet
+            </button>
+            <div id="reindeer-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('reindeer-chart')"
+              >
+                Close
+              </button>
+              <h2>Reindeer</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Milk.<br />2. Small amounts of forage.</td>
+                    <td>Gradually introduce solid foods.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Reindeer</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Lichens, mosses.<br />2. Grasses, leaves.</td>
+                    <td>Ensure grazing and fresh water access.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Tiger -->
+          <div class="animal-card tiger">
+            <img src="./images/tiger.jpeg" alt="Tiger" class="animal-image" />
+            <button onclick="toggleDietChart('tiger-chart')">
+              Show Tiger Diet
+            </button>
+            <div id="tiger-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('tiger-chart')">
+                Close
+              </button>
+              <h2>Tiger</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Cubs (up to 6 months)</td>
+                    <td>High protein, calcium.</td>
+                    <td>1. Mother's milk.<br />2. Small amounts of meat.</td>
+                    <td>Introduce meat gradually after weaning.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Tigers</td>
+                    <td>High protein, fat, vitamins.</td>
+                    <td>1. Large chunks of meat.<br />2. Bones, organs.</td>
+                    <td>Provide fresh meat and water daily.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Turtle -->
+          <div class="animal-card turtle">
+            <img src="./images/turtle.jpeg" alt="Turtle" class="animal-image" />
+            <button onclick="toggleDietChart('turtle-chart')">
+              Show Turtle Diet
+            </button>
+            <div id="turtle-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('turtle-chart')"
+              >
+                Close
+              </button>
+              <h2>Turtle</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Hatchlings</td>
+                    <td>High protein, calcium.</td>
+                    <td>1. Insects, small fish.<br />2. Aquatic plants.</td>
+                    <td>
+                      Ensure constant access to water. Provide calcium
+                      supplements.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Adult Turtles</td>
+                    <td>Balanced protein, fiber.</td>
+                    <td>
+                      1. Leafy greens, fruits.<br />2. Occasional insects.
+                    </td>
+                    <td>Provide clean water for swimming and drinking.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Wapiti -->
+          <div class="animal-card wapiti">
+            <img src="./images/wapiti.jpeg" alt="Wapiti" class="animal-image" />
+            <button onclick="toggleDietChart('wapiti-chart')">
+              Show Wapiti Diet
+            </button>
+            <div id="wapiti-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('wapiti-chart')"
+              >
+                Close
+              </button>
+              <h2>Wapiti</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calves (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Milk.<br />2. Small amounts of forage.</td>
+                    <td>Introduce forage gradually.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Wapiti</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grasses, leaves.<br />2. Bark, shrubs.</td>
+                    <td>
+                      Ensure ample grazing area and access to fresh water.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for White-tailed Deer -->
+          <div class="animal-card whited">
+            <img
+              src="./images/whited.jpeg"
+              alt="White-tailed Deer"
+              class="animal-image"
+            />
+            <button onclick="toggleDietChart('white-tailed-deer-chart')">
+              Show White-tailed Deer Diet
+            </button>
+            <div id="white-tailed-deer-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('white-tailed-deer-chart')"
+              >
+                Close
+              </button>
+              <h2>White-tailed Deer</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Fawns (up to 6 months)</td>
+                    <td>High protein, calcium, vitamins A, D.</td>
+                    <td>1. Milk.<br />2. Small amounts of forage.</td>
+                    <td>Introduce solid food gradually.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult White-tailed Deer</td>
+                    <td>High fiber, moderate protein.</td>
+                    <td>1. Grasses, leaves.<br />2. Nuts, fruits.</td>
+                    <td>Ensure access to forage and fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Wolves -->
+          <div class="animal-card wolf">
+            <img src="./images/wolf.jpeg" alt="Wolves" class="animal-image" />
+            <button onclick="toggleDietChart('wolves-chart')">
+              Show Wolves Diet
+            </button>
+            <div id="wolves-chart" class="diet-chart">
+              <button
+                class="close-btn"
+                onclick="closeDietChart('wolves-chart')"
+              >
+                Close
+              </button>
+              <h2>Wolves</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Pups (up to 6 months)</td>
+                    <td>High protein, calcium, fats.</td>
+                    <td>1. Mother's milk.<br />2. Soft meat.</td>
+                    <td>Introduce small amounts of meat after weaning.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Wolves</td>
+                    <td>High protein, fats.</td>
+                    <td>1. Large chunks of meat.<br />2. Bones, organs.</td>
+                    <td>
+                      Provide fresh meat daily. Ensure water availability.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Example for Snake -->
+          <div class="animal-card snake">
+            <img src="./images/snake.jpeg" alt="Snake" class="animal-image" />
+            <button onclick="toggleDietChart('snake-chart')">
+              Show Snake Diet
+            </button>
+            <div id="snake-chart" class="diet-chart">
+              <button class="close-btn" onclick="closeDietChart('snake-chart')">
+                Close
+              </button>
+              <h2>Snake</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Life Stage</th>
+                    <th>Nutritional Requirements</th>
+                    <th>Sample Meal Plan</th>
+                    <th>Feeding Tips</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Hatchlings</td>
+                    <td>High protein, calcium.</td>
+                    <td>
+                      1. Small rodents.<br />2. Insects, fish (depending on
+                      species).
+                    </td>
+                    <td>Feed once every 5-7 days. Ensure proper humidity.</td>
+                  </tr>
+                  <tr>
+                    <td>Adult Snakes</td>
+                    <td>High protein, fats.</td>
+                    <td>
+                      1. Rodents, birds.<br />2. Eggs (depending on species).
+                    </td>
+                    <td>Feed once every 7-10 days. Provide fresh water.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Repeat for additional animals as needed -->
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services-section" class="section">
+        <h1>Our Services</h1>
+        <div class="service-card">
+          <h3>Pet Sitting</h3>
+          <p>
+            We provide reliable and friendly pet sitting services for your
+            beloved pets.
+          </p>
+        </div>
+        <div class="service-card">
+          <h3>Dog Walking</h3>
+          <p>
+            Our professional dog walkers ensure your dog gets the exercise they
+            need.
+          </p>
+        </div>
+        <div class="service-card">
+          <h3>Veterinary Care</h3>
+          <p>
+            We partner with local vets to provide health services and checkups
+            for your pets.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact-section" class="section">
+        <h1>Contact Us</h1>
+        <p>Have any questions? Feel free to reach out!</p>
+        <p>Click here to contact us</p>
+        <a href="https://curofy.com/doctors/sriperumbudur,-tamil-nadu,-india/veterinary"></a>
+      </section>
+    </div>
+
+    <!-- JavaScript Initialization for Glider.js -->
+    <!-- JavaScript Initialization for Glider.js with Auto-Slide -->
+    <script>
+      let currentlyOpenChart = null; // Variable to track the currently opened chart
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add event listeners for navbar links
+        document
+          .getElementById("home-link")
+          .addEventListener("click", () => showSection("home-section"));
+        document
+          .getElementById("about-link")
+          .addEventListener("click", () => showSection("about-section"));
+        document
+          .getElementById("services-link")
+          .addEventListener("click", () => showSection("services-section"));
+        document
+          .getElementById("contact-link")
+          .addEventListener("click", () => showSection("contact-section"));
+
+        // Show the home section by default
+        showSection("home-section");
+      });
+
+      // Function to show and hide sections
+      function showSection(sectionId) {
+        const sections = document.querySelectorAll("section");
+        sections.forEach((section) => {
+          section.style.display = "none"; // Hide all sections
+        });
+        document.getElementById(sectionId).style.display = "block"; // Show the selected section
+      }
+
+      function toggleDietChart(chartId) {
+        var chart = document.getElementById(chartId);
+
+        // If there's a currently open chart and it's not the one being toggled, close it
+        if (currentlyOpenChart && currentlyOpenChart !== chart) {
+          currentlyOpenChart.style.display = "none";
+        }
+
+        // Toggle the clicked chart
+        if (chart.style.display === "none" || chart.style.display === "") {
+          chart.style.display = "block";
+          currentlyOpenChart = chart; // Set the currently open chart to the new one
+        } else {
+          chart.style.display = "none";
+          currentlyOpenChart = null; // Reset if the chart is closed
+        }
+      }
+
+      function closeDietChart(chartId) {
+        const chart = document.getElementById(chartId);
+        chart.style.display = "none";
+        currentlyOpenChart = null; // Reset when a chart is closed
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        const animalCards = document.querySelectorAll(".animal-card");
+
+        // When the about section is clicked, show the cards with the animation
+        document.getElementById("about-link").addEventListener("click", () => {
+          showSection("about-section");
+          setTimeout(() => {
+            animalCards.forEach((card) => card.classList.add("show"));
+          }, 200); // Delay to ensure proper section visibility
+        });
+      });
+    </script>
+  </body>
+</html>

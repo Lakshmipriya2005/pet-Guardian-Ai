@@ -1,0 +1,872 @@
+AnimalName,BloodBrainDisease,AppearenceDisease,GeneralDisease,LungDisease,AbdominalDisease,HealthStatus
+Dog,anemia,swelling,fever,difficulty in breathing,uteria inertia,Critical
+Dog,anemia,emaciation,loss of appetite,difficulty in breathing,ulcers,Critical
+Dog,jaundice,hairloss,loss of appetite,halitosis,ulcers,Critical
+Dog,wasting,ruffled feathers,pains,pneumonia,uteria inertia,Critical
+Dog,convulsions,scabs,weakness,dyspnea,fetopelvic disproportion,Critical
+Dog,jaundice,scabs,loss of appetite,respiratory distress,upset stomach,Critical
+Dog,jaundice,swelling,vomiting,halitosis,abdominal pain,Critical
+Dog,seizures,scabs,vomiting,pneumonia,upset stomach,Critical
+Dog,jaundice,emaciation,fever,difficulty in breathing,uteria inertia,Critical
+Dog,wasting,weightloss,skin rashes,halitosis,abdominal pain,Critical
+Dog,convulsions,emaciation,muscle aches,halitosis,upset stomach,Critical
+Dog,jaundice,hairloss,sneezing,dyspnea,diarrhea,Critical
+Dog,wasting,swelling,vomiting,dyspnea,uteria inertia,Critical
+Dog,seizures,hairloss,loss of appetite,halitosis,diarrhea,Critical
+Dog,anemia,weightloss,muscle aches,dyspnea,fetopelvic disproportion,Critical
+Dog,anemia,swelling,skin rashes,dyspnea,uteria inertia,Critical
+Dog,convulsions,scabs,vomiting,halitosis,abdominal pain,Critical
+Dog,anemia,hairloss,coughing,dyspnea,abdominal pain,Critical
+Dog,seizures,weightloss,fever,difficulty in breathing,abdominal pain,Critical
+Dog,anemia,ruffled feathers,coughing,nasal discharge,fetopelvic disproportion,Critical
+Dog,jaundice,weightloss,vomiting,nasal discharge,uteria inertia,Critical
+Dog,convulsions,weightloss,vomiting,pneumonia,fetopelvic disproportion,Critical
+Dog,wasting,swelling,headache,dyspnea,fetopelvic disproportion,Critical
+Dog,anemia,hairloss,headache,difficulty in breathing,diarrhea,Critical
+Dog,wasting,weightloss,coughing,nasal discharge,uteria inertia,Critical
+Dog,seizures,hairloss,stumbling,difficulty in breathing,ulcers,Critical
+Dog,seizures,weightloss,sneezing,difficulty in breathing,fetopelvic disproportion,Critical
+Dog,wasting,emaciation,pains,pneumonia,abdominal pain,Critical
+Dog,wasting,hairloss,pains,pneumonia,upset stomach,Critical
+Dog,wasting,ruffled feathers,fever,halitosis,abdominal pain,Critical
+Dog,anemia,weightloss,dejection,difficulty in breathing,ulcers,Critical
+Dog,anemia,hairloss,pains,pneumonia,abdominal pain,Critical
+Dog,wasting,weightloss,muscle aches,dyspnea,ulcers,Critical
+Dog,anemia,emaciation,dejection,respiratory distress,fetopelvic disproportion,Critical
+cat,anemia,swelling,sneezing,respiratory distress,upset stomach,Critical
+cat,wasting,emaciation,pains,difficulty in breathing,upset stomach,Critical
+cat,wasting,swelling,sneezing,pneumonia,diarrhea,Critical
+cat,seizures,ruffled feathers,pains,difficulty in breathing,diarrhea,Critical
+cat,convulsions,hairloss,muscle aches,dyspnea,ulcers,Critical
+cat,jaundice,emaciation,pains,difficulty in breathing,fetopelvic disproportion,Critical
+cat,seizures,scabs,pains,dyspnea,ulcers,Critical
+cat,seizures,weightloss,sweating,nasal discharge,fetopelvic disproportion,Critical
+cat,wasting,emaciation,headache,dyspnea,diarrhea,Critical
+cat,seizures,emaciation,weakness,difficulty in breathing,uteria inertia,Critical
+cat,anemia,scabs,fever,respiratory distress,ulcers,Critical
+cat,convulsions,swelling,fever,pneumonia,upset stomach,Critical
+cat,jaundice,hairloss,stumbling,difficulty in breathing,upset stomach,Critical
+cat,convulsions,scabs,stumbling,difficulty in breathing,fetopelvic disproportion,Critical
+cat,convulsions,emaciation,loss of appetite,respiratory distress,diarrhea,Critical
+cat,anemia,weightloss,sneezing,halitosis,fetopelvic disproportion,Critical
+cat,jaundice,scabs,stumbling,halitosis,uteria inertia,Critical
+cat,anemia,swelling,vomiting,dyspnea,uteria inertia,Critical
+cat,wasting,weightloss,fever,pneumonia,ulcers,Critical
+cat,convulsions,ruffled feathers,coughing,pneumonia,ulcers,Critical
+cat,jaundice,hairloss,headache,difficulty in breathing,diarrhea,Critical
+cat,jaundice,ruffled feathers,skin rashes,difficulty in breathing,ulcers,Critical
+cat,jaundice,ruffled feathers,weakness,halitosis,diarrhea,Critical
+cat,seizures,swelling,loss of appetite,nasal discharge,ulcers,Critical
+cat,wasting,weightloss,skin rashes,difficulty in breathing,ulcers,Critical
+cat,jaundice,swelling,dejection,difficulty in breathing,diarrhea,Critical
+cat,anemia,emaciation,pains,dyspnea,uteria inertia,Critical
+cat,wasting,swelling,fever,halitosis,ulcers,Critical
+cat,convulsions,emaciation,weakness,nasal discharge,upset stomach,Critical
+cat,wasting,emaciation,weakness,dyspnea,fetopelvic disproportion,Critical
+cat,convulsions,swelling,coughing,dyspnea,fetopelvic disproportion,Critical
+cat,jaundice,ruffled feathers,vomiting,nasal discharge,uteria inertia,Critical
+cat,anemia,scabs,pains,halitosis,ulcers,Critical
+cat,convulsions,emaciation,stumbling,respiratory distress,abdominal pain,Critical
+cat,seizures,ruffled feathers,sweating,halitosis,uteria inertia,Critical
+cat,convulsions,hairloss,fever,halitosis,abdominal pain,Critical
+Rabbit,seizures,emaciation,headache,dyspnea,fetopelvic disproportion,Critical
+Rabbit,convulsions,weightloss,dejection,halitosis,uteria inertia,Critical
+Rabbit,jaundice,ruffled feathers,headache,difficulty in breathing,uteria inertia,Critical
+Rabbit,seizures,scabs,vomiting,nasal discharge,uteria inertia,Critical
+Rabbit,seizures,ruffled feathers,pains,difficulty in breathing,uteria inertia,Critical
+Rabbit,seizures,emaciation,fever,nasal discharge,uteria inertia,Critical
+Rabbit,jaundice,weightloss,headache,pneumonia,upset stomach,Critical
+Rabbit,seizures,emaciation,coughing,difficulty in breathing,upset stomach,Critical
+Rabbit,convulsions,weightloss,sneezing,respiratory distress,fetopelvic disproportion,Critical
+Rabbit,convulsions,ruffled feathers,fever,nasal discharge,upset stomach,Critical
+Rabbit,seizures,emaciation,fever,halitosis,upset stomach,Critical
+cow,convulsions,emaciation,dejection,halitosis,upset stomach,Critical
+Chicken,jaundice,ruffled feathers,dejection,pneumonia,ulcers,Critical
+Chicken,convulsions,emaciation,loss of appetite,dyspnea,fetopelvic disproportion,Critical
+Chicken,wasting,scabs,coughing,dyspnea,ulcers,Critical
+Chicken,seizures,emaciation,skin rashes,pneumonia,fetopelvic disproportion,Critical
+cow,anemia,weightloss,pains,halitosis,ulcers,Critical
+cow,convulsions,swelling,sweating,halitosis,ulcers,Critical
+cattle,jaundice,ruffled feathers,sneezing,dyspnea,upset stomach,Critical
+mammal,anemia,swelling,coughing,dyspnea,fetopelvic disproportion,Critical
+Cattle,jaundice,weightloss,vomiting,respiratory distress,diarrhea,Critical
+Cattle,wasting,hairloss,fever,difficulty in breathing,upset stomach,Critical
+Cattle,wasting,swelling,skin rashes,respiratory distress,abdominal pain,Critical
+Cattle,anemia,emaciation,vomiting,dyspnea,diarrhea,Critical
+Cattle,wasting,hairloss,dejection,respiratory distress,upset stomach,Critical
+Cattle,jaundice,hairloss,loss of appetite,dyspnea,ulcers,Critical
+Cattle,wasting,swelling,stumbling,pneumonia,uteria inertia,Critical
+Cattle,jaundice,scabs,weakness,difficulty in breathing,upset stomach,Critical
+Cattle,jaundice,ruffled feathers,coughing,pneumonia,uteria inertia,Critical
+Cattle,wasting,ruffled feathers,coughing,dyspnea,abdominal pain,Critical
+Cattle,convulsions,swelling,headache,dyspnea,abdominal pain,Critical
+Cattle,anemia,swelling,coughing,respiratory distress,diarrhea,Critical
+Cattle,convulsions,hairloss,stumbling,pneumonia,fetopelvic disproportion,Critical
+Cattle,wasting,emaciation,sneezing,difficulty in breathing,upset stomach,Critical
+Cattle,jaundice,hairloss,vomiting,nasal discharge,abdominal pain,Critical
+Cattle,seizures,scabs,coughing,respiratory distress,uteria inertia,Critical
+Cattle,anemia,swelling,coughing,halitosis,uteria inertia,Critical
+Cattle,wasting,weightloss,loss of appetite,dyspnea,upset stomach,Critical
+Horse,jaundice,ruffled feathers,stumbling,pneumonia,upset stomach,Critical
+Horse,convulsions,weightloss,sweating,halitosis,uteria inertia,Critical
+Horse,convulsions,swelling,pains,halitosis,ulcers,Critical
+Horse,jaundice,ruffled feathers,skin rashes,respiratory distress,diarrhea,Critical
+Horse,wasting,emaciation,dejection,halitosis,diarrhea,Critical
+Horse,anemia,swelling,loss of appetite,dyspnea,diarrhea,Critical
+Horse,jaundice,weightloss,fever,respiratory distress,uteria inertia,Critical
+Horse,anemia,swelling,fever,halitosis,fetopelvic disproportion,Critical
+Horse,anemia,weightloss,sweating,pneumonia,upset stomach,Critical
+Horse,convulsions,weightloss,coughing,difficulty in breathing,upset stomach,Critical
+Turtle,wasting,emaciation,pains,halitosis,uteria inertia,Critical
+Turtle,convulsions,scabs,headache,nasal discharge,upset stomach,Critical
+Turtle,anemia,hairloss,sweating,nasal discharge,abdominal pain,Critical
+Turtle,seizures,ruffled feathers,fever,difficulty in breathing,upset stomach,Critical
+Hamster,wasting,swelling,stumbling,halitosis,fetopelvic disproportion,Critical
+Hamster,anemia,emaciation,skin rashes,difficulty in breathing,abdominal pain,Critical
+Hamster,convulsions,hairloss,vomiting,pneumonia,fetopelvic disproportion,Critical
+Hamster,jaundice,scabs,muscle aches,nasal discharge,fetopelvic disproportion,Critical
+Hamster,wasting,emaciation,pains,pneumonia,fetopelvic disproportion,Critical
+Hamster,wasting,scabs,pains,difficulty in breathing,diarrhea,Critical
+Hamster,anemia,emaciation,dejection,dyspnea,diarrhea,Critical
+Lion,seizures,ruffled feathers,loss of appetite,difficulty in breathing,diarrhea,Critical
+Lion,anemia,weightloss,skin rashes,respiratory distress,diarrhea,Critical
+Lion,anemia,swelling,coughing,dyspnea,upset stomach,Critical
+Lion,jaundice,emaciation,stumbling,pneumonia,uteria inertia,Critical
+Lion,jaundice,weightloss,vomiting,nasal discharge,abdominal pain,Critical
+Lion,anemia,swelling,pains,nasal discharge,uteria inertia,Critical
+Lion,seizures,swelling,muscle aches,nasal discharge,fetopelvic disproportion,Critical
+Lion,jaundice,scabs,sneezing,dyspnea,fetopelvic disproportion,Critical
+Lion,anemia,emaciation,headache,nasal discharge,uteria inertia,Critical
+Lion,anemia,ruffled feathers,pains,respiratory distress,upset stomach,Critical
+Lion,anemia,weightloss,muscle aches,dyspnea,upset stomach,Critical
+Lion,seizures,ruffled feathers,sneezing,difficulty in breathing,fetopelvic disproportion,Critical
+Lion,anemia,weightloss,coughing,difficulty in breathing,diarrhea,Critical
+Lion,anemia,weightloss,fever,pneumonia,abdominal pain,Critical
+Lion,wasting,scabs,skin rashes,halitosis,diarrhea,Critical
+Lion,convulsions,weightloss,coughing,respiratory distress,abdominal pain,Critical
+Fox,jaundice,scabs,skin rashes,halitosis,diarrhea,Critical
+Fox,convulsions,scabs,skin rashes,halitosis,fetopelvic disproportion,Critical
+Fox,jaundice,emaciation,muscle aches,halitosis,diarrhea,Critical
+Fox ,anemia,scabs,skin rashes,difficulty in breathing,uteria inertia,Critical
+Fox,convulsions,weightloss,pains,dyspnea,diarrhea,Critical
+Fox,seizures,scabs,coughing,pneumonia,diarrhea,Critical
+Fox,wasting,ruffled feathers,loss of appetite,halitosis,ulcers,Critical
+Goat,jaundice,scabs,stumbling,dyspnea,diarrhea,Critical
+Goat,wasting,scabs,weakness,respiratory distress,upset stomach,Critical
+Goat,seizures,scabs,dejection,halitosis,upset stomach,Critical
+Goat,convulsions,weightloss,headache,halitosis,ulcers,Critical
+Goat,jaundice,scabs,loss of appetite,respiratory distress,upset stomach,Critical
+Goat,wasting,swelling,fever,nasal discharge,abdominal pain,Critical
+Goat,jaundice,emaciation,weakness,halitosis,fetopelvic disproportion,Critical
+Goat,wasting,weightloss,vomiting,pneumonia,diarrhea,Critical
+Goat,seizures,swelling,fever,halitosis,uteria inertia,Critical
+Goat,seizures,emaciation,headache,respiratory distress,abdominal pain,Critical
+Goat,anemia,hairloss,fever,pneumonia,fetopelvic disproportion,Critical
+Goat,convulsions,emaciation,sweating,nasal discharge,upset stomach,Critical
+Goat,convulsions,scabs,skin rashes,halitosis,ulcers,Critical
+Goat,wasting,swelling,headache,respiratory distress,upset stomach,Critical
+Goat,convulsions,ruffled feathers,muscle aches,difficulty in breathing,fetopelvic disproportion,Critical
+Goat,jaundice,hairloss,muscle aches,halitosis,diarrhea,Critical
+Goat,wasting,scabs,fever,halitosis,diarrhea,Critical
+Goat,convulsions,ruffled feathers,vomiting,respiratory distress,uteria inertia,Critical
+Goat,convulsions,weightloss,sweating,pneumonia,ulcers,Critical
+Goat,anemia,weightloss,fever,pneumonia,diarrhea,Critical
+Goat,wasting,hairloss,sweating,nasal discharge,upset stomach,Critical
+Goat,wasting,swelling,dejection,dyspnea,ulcers,Critical
+Goat,seizures,hairloss,pains,dyspnea,abdominal pain,Critical
+Goat,convulsions,emaciation,vomiting,respiratory distress,fetopelvic disproportion,Critical
+Goat,convulsions,weightloss,coughing,pneumonia,fetopelvic disproportion,Critical
+Goat,seizures,weightloss,skin rashes,respiratory distress,diarrhea,Critical
+Deer,jaundice,emaciation,sneezing,nasal discharge,ulcers,Critical
+Deer,seizures,hairloss,headache,pneumonia,abdominal pain,Critical
+Deer,jaundice,hairloss,loss of appetite,pneumonia,abdominal pain,Critical
+Deer,convulsions,emaciation,coughing,dyspnea,uteria inertia,Critical
+Deer,seizures,emaciation,dejection,respiratory distress,ulcers,Critical
+Chicken,anemia,weightloss,muscle aches,difficulty in breathing,diarrhea,Critical
+Chicken,jaundice,scabs,pains,difficulty in breathing,upset stomach,Normal
+Chicken,seizures,weightloss,skin rashes,pneumonia,fetopelvic disproportion,Normal
+Chicken,seizures,weightloss,stumbling,nasal discharge,ulcers,Normal
+Chicken,jaundice,ruffled feathers,coughing,pneumonia,upset stomach,Normal
+Chicken,seizures,ruffled feathers,dejection,difficulty in breathing,uteria inertia,Normal
+Chicken,seizures,ruffled feathers,pains,pneumonia,uteria inertia,Normal
+Chicken,jaundice,weightloss,skin rashes,dyspnea,fetopelvic disproportion,Normal
+Chicken,convulsions,scabs,stumbling,difficulty in breathing,diarrhea,Normal
+Monkey,convulsions,emaciation,stumbling,dyspnea,diarrhea,Normal
+Monkey,jaundice,swelling,sneezing,difficulty in breathing,ulcers,Normal
+Monkey,wasting,ruffled feathers,loss of appetite,pneumonia,uteria inertia,Critical
+Monkey,anemia,scabs,sweating,respiratory distress,upset stomach,Critical
+Monkey,seizures,scabs,sneezing,dyspnea,fetopelvic disproportion,Critical
+Monkey,seizures,swelling,fever,respiratory distress,diarrhea,Critical
+Monkey,anemia,weightloss,headache,respiratory distress,ulcers,Critical
+Monkey,convulsions,hairloss,sweating,halitosis,uteria inertia,Critical
+Monkey,seizures,emaciation,fever,halitosis,abdominal pain,Critical
+Monkey,anemia,hairloss,fever,pneumonia,diarrhea,Critical
+Monkey,anemia,hairloss,coughing,dyspnea,ulcers,Critical
+Monkey,convulsions,weightloss,headache,nasal discharge,upset stomach,Critical
+Monkey,jaundice,hairloss,skin rashes,halitosis,ulcers,Critical
+Monkey,wasting,ruffled feathers,dejection,difficulty in breathing,upset stomach,Critical
+Monkey,seizures,hairloss,stumbling,difficulty in breathing,abdominal pain,Critical
+Monkey,wasting,emaciation,stumbling,dyspnea,uteria inertia,Critical
+Monkey,anemia,swelling,headache,nasal discharge,diarrhea,Critical
+Monkey,jaundice,hairloss,fever,halitosis,abdominal pain,Critical
+Monkey,seizures,weightloss,stumbling,difficulty in breathing,diarrhea,Critical
+Monkey,anemia,scabs,headache,respiratory distress,upset stomach,Critical
+Monkey,anemia,ruffled feathers,coughing,halitosis,uteria inertia,Critical
+Monkey,anemia,ruffled feathers,coughing,difficulty in breathing,uteria inertia,Critical
+Monkey,seizures,scabs,vomiting,pneumonia,fetopelvic disproportion,Critical
+Monkey,seizures,emaciation,coughing,nasal discharge,diarrhea,Critical
+Monkey,seizures,emaciation,headache,dyspnea,uteria inertia,Critical
+Monkey,seizures,scabs,pains,nasal discharge,fetopelvic disproportion,Critical
+Monkey,anemia,hairloss,pains,difficulty in breathing,fetopelvic disproportion,Critical
+Monkey,anemia,weightloss,headache,difficulty in breathing,fetopelvic disproportion,Critical
+Birds,wasting,emaciation,pains,pneumonia,uteria inertia,Critical
+Birds,seizures,swelling,skin rashes,dyspnea,ulcers,Critical
+Birds,anemia,emaciation,headache,halitosis,fetopelvic disproportion,Critical
+Birds,anemia,scabs,stumbling,dyspnea,upset stomach,Critical
+Birds,seizures,scabs,muscle aches,nasal discharge,diarrhea,Critical
+Birds,jaundice,scabs,skin rashes,difficulty in breathing,ulcers,Critical
+Birds,jaundice,scabs,fever,nasal discharge,uteria inertia,Critical
+Birds,anemia,ruffled feathers,weakness,difficulty in breathing,abdominal pain,Critical
+Birds,seizures,swelling,dejection,halitosis,diarrhea,Critical
+Birds,seizures,swelling,sweating,halitosis,upset stomach,Critical
+Birds,seizures,ruffled feathers,weakness,pneumonia,fetopelvic disproportion,Critical
+Birds,convulsions,emaciation,pains,pneumonia,diarrhea,Critical
+Birds,convulsions,emaciation,coughing,difficulty in breathing,upset stomach,Critical
+Birds,anemia,swelling,loss of appetite,respiratory distress,abdominal pain,Critical
+Birds,jaundice,hairloss,sneezing,respiratory distress,diarrhea,Critical
+Birds,convulsions,swelling,vomiting,difficulty in breathing,abdominal pain,Critical
+Birds,wasting,weightloss,sweating,difficulty in breathing,fetopelvic disproportion,Critical
+Birds,jaundice,scabs,muscle aches,halitosis,diarrhea,Critical
+Birds,jaundice,emaciation,weakness,difficulty in breathing,fetopelvic disproportion,Critical
+Birds,seizures,emaciation,dejection,respiratory distress,uteria inertia,Critical
+Birds,jaundice,scabs,muscle aches,halitosis,fetopelvic disproportion,Critical
+Birds,wasting,weightloss,sweating,nasal discharge,ulcers,Critical
+Birds,wasting,weightloss,loss of appetite,halitosis,fetopelvic disproportion,Critical
+Birds,convulsions,swelling,muscle aches,dyspnea,ulcers,Critical
+Birds,anemia,weightloss,dejection,respiratory distress,uteria inertia,Critical
+Birds,jaundice,ruffled feathers,coughing,nasal discharge,diarrhea,Critical
+Birds,seizures,weightloss,sneezing,halitosis,fetopelvic disproportion,Critical
+Birds,jaundice,scabs,coughing,nasal discharge,diarrhea,Critical
+Birds,jaundice,scabs,pains,halitosis,abdominal pain,Critical
+Birds,seizures,scabs,sneezing,nasal discharge,uteria inertia,Critical
+Birds,seizures,swelling,loss of appetite,difficulty in breathing,upset stomach,Critical
+Birds,jaundice,swelling,vomiting,respiratory distress,abdominal pain,Critical
+Birds,wasting,hairloss,skin rashes,nasal discharge,upset stomach,Critical
+Birds,anemia,swelling,fever,nasal discharge,uteria inertia,Critical
+Birds,jaundice,ruffled feathers,headache,pneumonia,diarrhea,Critical
+Birds,convulsions,ruffled feathers,muscle aches,pneumonia,upset stomach,Critical
+Birds,convulsions,emaciation,muscle aches,dyspnea,upset stomach,Critical
+Sheep,convulsions,ruffled feathers,weakness,pneumonia,diarrhea,Critical
+Sheep,jaundice,hairloss,vomiting,nasal discharge,diarrhea,Critical
+Sheep,jaundice,hairloss,vomiting,difficulty in breathing,abdominal pain,Critical
+Sheep,wasting,weightloss,muscle aches,difficulty in breathing,fetopelvic disproportion,Critical
+Sheep,jaundice,weightloss,weakness,dyspnea,upset stomach,Critical
+Sheep,convulsions,weightloss,fever,dyspnea,ulcers,Critical
+Sheep,jaundice,ruffled feathers,vomiting,nasal discharge,abdominal pain,Critical
+Sheep,wasting,scabs,vomiting,dyspnea,ulcers,Critical
+Sheep,jaundice,scabs,sneezing,pneumonia,abdominal pain,Critical
+Sheep,wasting,weightloss,pains,pneumonia,upset stomach,Critical
+Sheep,seizures,scabs,skin rashes,pneumonia,diarrhea,Critical
+Sheep,jaundice,ruffled feathers,weakness,difficulty in breathing,diarrhea,Critical
+Sheep,jaundice,emaciation,coughing,difficulty in breathing,diarrhea,Critical
+Sheep,seizures,scabs,headache,nasal discharge,fetopelvic disproportion,Critical
+Sheep,seizures,emaciation,vomiting,respiratory distress,abdominal pain,Critical
+Sheep,anemia,swelling,sneezing,difficulty in breathing,diarrhea,Critical
+Sheep,anemia,swelling,sweating,respiratory distress,abdominal pain,Critical
+Sheep,convulsions,swelling,coughing,pneumonia,fetopelvic disproportion,Critical
+Sheep,anemia,hairloss,sneezing,difficulty in breathing,abdominal pain,Critical
+Sheep,anemia,scabs,sweating,respiratory distress,ulcers,Critical
+Sheep,convulsions,emaciation,dejection,pneumonia,upset stomach,Critical
+Sheep,convulsions,ruffled feathers,vomiting,difficulty in breathing,ulcers,Critical
+Sheep,wasting,weightloss,pains,nasal discharge,uteria inertia,Critical
+Sheep,anemia,swelling,skin rashes,pneumonia,upset stomach,Critical
+Sheep,anemia,emaciation,dejection,nasal discharge,abdominal pain,Critical
+Sheep,seizures,hairloss,muscle aches,halitosis,abdominal pain,Critical
+Sheep,anemia,weightloss,coughing,dyspnea,upset stomach,Critical
+Sheep,anemia,ruffled feathers,stumbling,halitosis,ulcers,Critical
+Sheep,wasting,scabs,pains,difficulty in breathing,upset stomach,Critical
+Sheep,seizures,swelling,sweating,nasal discharge,abdominal pain,Critical
+Sheep,anemia,hairloss,vomiting,respiratory distress,uteria inertia,Critical
+Sheep,seizures,ruffled feathers,dejection,respiratory distress,fetopelvic disproportion,Critical
+Sheep,wasting,ruffled feathers,weakness,respiratory distress,diarrhea,Critical
+Sheep,seizures,emaciation,vomiting,respiratory distress,diarrhea,Critical
+Sheep,seizures,scabs,sweating,respiratory distress,diarrhea,Critical
+Sheep,convulsions,emaciation,muscle aches,dyspnea,diarrhea,Critical
+Sheep,wasting,hairloss,vomiting,respiratory distress,uteria inertia,Critical
+Sheep,anemia,hairloss,weakness,pneumonia,diarrhea,Critical
+Sheep,anemia,hairloss,fever,halitosis,upset stomach,Critical
+Sheep,seizures,emaciation,sneezing,pneumonia,upset stomach,Critical
+Sheep,convulsions,swelling,vomiting,halitosis,upset stomach,Critical
+Sheep,seizures,weightloss,fever,dyspnea,abdominal pain,Critical
+Sheep,seizures,scabs,dejection,difficulty in breathing,fetopelvic disproportion,Critical
+Sheep,jaundice,swelling,fever,nasal discharge,fetopelvic disproportion,Critical
+Sheep,anemia,weightloss,coughing,halitosis,fetopelvic disproportion,Critical
+Sheep,jaundice,emaciation,fever,respiratory distress,ulcers,Critical
+Sheep,anemia,emaciation,muscle aches,pneumonia,uteria inertia,Critical
+Sheep,anemia,weightloss,fever,dyspnea,upset stomach,Critical
+Sheep,anemia,hairloss,muscle aches,difficulty in breathing,upset stomach,Critical
+Sheep,convulsions,scabs,coughing,respiratory distress,ulcers,Critical
+Sheep,convulsions,swelling,coughing,halitosis,uteria inertia,Critical
+Sheep,wasting,swelling,headache,pneumonia,uteria inertia,Critical
+Sheep,anemia,emaciation,weakness,nasal discharge,upset stomach,Critical
+Sheep,convulsions,emaciation,vomiting,respiratory distress,uteria inertia,Critical
+Sheep,anemia,scabs,dejection,halitosis,abdominal pain,Critical
+Sheep,wasting,weightloss,stumbling,halitosis,upset stomach,Critical
+Sheep,jaundice,weightloss,loss of appetite,nasal discharge,upset stomach,Critical
+Sheep,anemia,emaciation,stumbling,dyspnea,upset stomach,Critical
+Sheep,anemia,ruffled feathers,stumbling,pneumonia,uteria inertia,Critical
+Sheep,jaundice,scabs,fever,dyspnea,upset stomach,Critical
+Sheep,anemia,ruffled feathers,muscle aches,nasal discharge,uteria inertia,Critical
+Sheep,convulsions,hairloss,loss of appetite,difficulty in breathing,fetopelvic disproportion,Critical
+Sheep,convulsions,swelling,headache,nasal discharge,ulcers,Critical
+Sheep,seizures,emaciation,headache,pneumonia,abdominal pain,Critical
+Sheep,convulsions,scabs,headache,dyspnea,fetopelvic disproportion,Critical
+Sheep,convulsions,swelling,muscle aches,dyspnea,fetopelvic disproportion,Critical
+Sheep,seizures,emaciation,sweating,difficulty in breathing,upset stomach,Critical
+Sheep,anemia,weightloss,loss of appetite,nasal discharge,upset stomach,Critical
+Sheep,anemia,swelling,dejection,pneumonia,diarrhea,Critical
+Sheep,convulsions,weightloss,loss of appetite,difficulty in breathing,ulcers,Critical
+Sheep,seizures,weightloss,coughing,difficulty in breathing,upset stomach,Critical
+Sheep,wasting,scabs,stumbling,dyspnea,abdominal pain,Critical
+Sheep,seizures,weightloss,loss of appetite,halitosis,ulcers,Critical
+Sheep,seizures,emaciation,weakness,difficulty in breathing,diarrhea,Critical
+Sheep,jaundice,ruffled feathers,muscle aches,difficulty in breathing,ulcers,Critical
+Sheep,convulsions,scabs,vomiting,dyspnea,uteria inertia,Critical
+Sheep,seizures,swelling,sneezing,difficulty in breathing,abdominal pain,Critical
+Sheep,convulsions,hairloss,sweating,difficulty in breathing,ulcers,Critical
+Sheep,anemia,emaciation,sweating,respiratory distress,ulcers,Critical
+Sheep,convulsions,ruffled feathers,sweating,difficulty in breathing,fetopelvic disproportion,Critical
+Sheep,wasting,swelling,pains,halitosis,fetopelvic disproportion,Critical
+Sheep,jaundice,scabs,pains,halitosis,fetopelvic disproportion,Critical
+Sheep,seizures,weightloss,stumbling,dyspnea,ulcers,Critical
+Sheep,convulsions,swelling,sneezing,respiratory distress,uteria inertia,Critical
+Sheep,convulsions,emaciation,stumbling,halitosis,upset stomach,Critical
+Sheep,convulsions,swelling,fever,difficulty in breathing,uteria inertia,Critical
+Sheep,anemia,weightloss,skin rashes,respiratory distress,ulcers,Critical
+Sheep,convulsions,hairloss,vomiting,pneumonia,ulcers,Critical
+Sheep,seizures,scabs,fever,halitosis,ulcers,Critical
+Sheep,anemia,scabs,sneezing,nasal discharge,abdominal pain,Critical
+Sheep,jaundice,hairloss,dejection,difficulty in breathing,uteria inertia,Critical
+Sheep,seizures,swelling,pains,dyspnea,ulcers,Critical
+Sheep,wasting,ruffled feathers,sneezing,dyspnea,ulcers,Critical
+Sheep,jaundice,swelling,sweating,difficulty in breathing,upset stomach,Critical
+Sheep,anemia,scabs,fever,halitosis,upset stomach,Critical
+Sheep,convulsions,swelling,pains,nasal discharge,upset stomach,Critical
+Sheep,seizures,scabs,sneezing,difficulty in breathing,abdominal pain,Critical
+Sheep,jaundice,emaciation,coughing,respiratory distress,fetopelvic disproportion,Critical
+Sheep,anemia,weightloss,skin rashes,nasal discharge,diarrhea,Critical
+Sheep,convulsions,scabs,sweating,difficulty in breathing,uteria inertia,Critical
+Sheep,wasting,hairloss,loss of appetite,difficulty in breathing,diarrhea,Critical
+Sheep,wasting,swelling,muscle aches,nasal discharge,fetopelvic disproportion,Critical
+Sheep,seizures,ruffled feathers,weakness,difficulty in breathing,upset stomach,Critical
+Sheep,convulsions,ruffled feathers,vomiting,difficulty in breathing,ulcers,Critical
+Sheep,anemia,ruffled feathers,sneezing,difficulty in breathing,upset stomach,Critical
+Sheep,anemia,ruffled feathers,loss of appetite,dyspnea,fetopelvic disproportion,Critical
+Sheep,anemia,swelling,pains,dyspnea,upset stomach,Critical
+Pig,anemia,weightloss,coughing,halitosis,fetopelvic disproportion,Critical
+Fowl,convulsions,hairloss,headache,difficulty in breathing,abdominal pain,Critical
+Duck,jaundice,emaciation,loss of appetite,respiratory distress,upset stomach,Critical
+Other Birds,jaundice,scabs,headache,halitosis,diarrhea,Critical
+Pig,anemia,swelling,headache,respiratory distress,upset stomach,Critical
+Fowl,wasting,emaciation,fever,dyspnea,fetopelvic disproportion,Critical
+Duck,wasting,scabs,dejection,halitosis,fetopelvic disproportion,Critical
+Other Birds,anemia,weightloss,stumbling,pneumonia,upset stomach,Critical
+Fowl,anemia,swelling,headache,pneumonia,abdominal pain,Critical
+Duck,jaundice,hairloss,weakness,halitosis,upset stomach,Critical
+Other Birds,seizures,weightloss,fever,dyspnea,ulcers,Critical
+Pig,jaundice,ruffled feathers,sneezing,respiratory distress,upset stomach,Critical
+Fowl,seizures,swelling,weakness,respiratory distress,fetopelvic disproportion,Critical
+Duck,anemia,ruffled feathers,fever,dyspnea,fetopelvic disproportion,Critical
+Other Birds,seizures,swelling,vomiting,dyspnea,diarrhea,Critical
+Fowl,jaundice,emaciation,fever,nasal discharge,abdominal pain,Critical
+Duck,anemia,swelling,pains,pneumonia,fetopelvic disproportion,Critical
+Other Birds,jaundice,ruffled feathers,sweating,pneumonia,upset stomach,Critical
+Fowl,seizures,swelling,dejection,halitosis,diarrhea,Critical
+Duck,wasting,hairloss,loss of appetite,dyspnea,uteria inertia,Critical
+Other Birds,seizures,hairloss,skin rashes,halitosis,upset stomach,Critical
+snake,seizures,emaciation,loss of appetite,dyspnea,diarrhea,Critical
+horse,jaundice,swelling,sweating,respiratory distress,abdominal pain,Critical
+horse,jaundice,emaciation,headache,halitosis,uteria inertia,Critical
+horse,anemia,weightloss,stumbling,difficulty in breathing,ulcers,Critical
+horse,convulsions,emaciation,fever,difficulty in breathing,diarrhea,Critical
+horse,convulsions,hairloss,coughing,nasal discharge,uteria inertia,Critical
+Duck,jaundice,weightloss,sneezing,nasal discharge,abdominal pain,Critical
+Donkey,wasting,scabs,dejection,dyspnea,uteria inertia,Critical
+Donkey,seizures,emaciation,pains,difficulty in breathing,uteria inertia,Critical
+Donkey,wasting,weightloss,muscle aches,difficulty in breathing,ulcers,Critical
+mules,anemia,scabs,sweating,halitosis,abdominal pain,Critical
+Elephant,convulsions,swelling,muscle aches,dyspnea,fetopelvic disproportion,Critical
+Elephant,anemia,emaciation,dejection,dyspnea,abdominal pain,Critical
+Elephant,anemia,ruffled feathers,loss of appetite,nasal discharge,ulcers,Critical
+Elephant,convulsions,scabs,sneezing,halitosis,abdominal pain,Critical
+Deer,anemia,hairloss,sneezing,difficulty in breathing,upset stomach,Critical
+Elk,jaundice,scabs,headache,nasal discharge,diarrhea,Critical
+Wapiti,anemia,emaciation,stumbling,difficulty in breathing,diarrhea,Critical
+Deer,anemia,swelling,sweating,pneumonia,uteria inertia,Critical
+Mule deer,anemia,emaciation,vomiting,respiratory distress,upset stomach,Critical
+Black-tailed deer,anemia,scabs,headache,respiratory distress,diarrhea,Critical
+Sika deer,seizures,swelling,vomiting,nasal discharge,uteria inertia,Critical
+White-tailed deer,jaundice,hairloss,skin rashes,dyspnea,fetopelvic disproportion,Critical
+Reindeer,seizures,hairloss,skin rashes,respiratory distress,upset stomach,Critical
+Moos,wasting,ruffled feathers,pains,dyspnea,ulcers,Critical
+Tiger,wasting,weightloss,muscle aches,respiratory distress,ulcers,Critical
+Deer,seizures,hairloss,muscle aches,respiratory distress,abdominal pain,Critical
+Cattle,convulsions,emaciation,muscle aches,halitosis,diarrhea,Critical
+Goat,anemia,hairloss,skin rashes,pneumonia,fetopelvic disproportion,Critical
+Sheep,anemia,swelling,skin rashes,pneumonia,upset stomach,Critical
+Buffaloes,wasting,scabs,sweating,pneumonia,diarrhea,Critical
+Sheep,jaundice,weightloss,sweating,respiratory distress,ulcers,Critical
+Goat,wasting,scabs,fever,dyspnea,fetopelvic disproportion,Critical
+Cattle,jaundice,scabs,skin rashes,nasal discharge,upset stomach,Critical
+Cattle,seizures,emaciation,loss of appetite,pneumonia,fetopelvic disproportion,Critical
+Sheep,convulsions,emaciation,weakness,pneumonia,fetopelvic disproportion,Critical
+Dog,anemia,weightloss,skin rashes,nasal discharge,fetopelvic disproportion,Critical
+Fox,convulsions,weightloss,coughing,pneumonia,fetopelvic disproportion,Critical
+Wolves,wasting,hairloss,headache,difficulty in breathing,abdominal pain,Critical
+Hyaenas,anemia,hairloss,sweating,pneumonia,uteria inertia,Critical
+Duck,seizures,weightloss,pains,halitosis,ulcers,Critical
+Duck,anemia,hairloss,muscle aches,halitosis,fetopelvic disproportion,Critical
+Duck,wasting,ruffled feathers,skin rashes,dyspnea,ulcers,Critical
+Duck,convulsions,scabs,sweating,difficulty in breathing,abdominal pain,Critical
+Duck,convulsions,ruffled feathers,dejection,pneumonia,upset stomach,Critical
+Duck,seizures,hairloss,skin rashes,difficulty in breathing,fetopelvic disproportion,Critical
+Duck,seizures,scabs,sneezing,dyspnea,ulcers,Critical
+Duck,seizures,swelling,sneezing,nasal discharge,upset stomach,Critical
+Duck,seizures,ruffled feathers,sneezing,pneumonia,diarrhea,Critical
+Duck,jaundice,hairloss,sneezing,respiratory distress,upset stomach,Critical
+Duck,anemia,weightloss,loss of appetite,respiratory distress,diarrhea,Critical
+Duck,seizures,hairloss,vomiting,difficulty in breathing,ulcers,Critical
+Duck,anemia,weightloss,stumbling,nasal discharge,upset stomach,Critical
+Duck,anemia,weightloss,sneezing,dyspnea,ulcers,Critical
+Duck,convulsions,scabs,sneezing,dyspnea,abdominal pain,Critical
+Duck,wasting,weightloss,sneezing,pneumonia,uteria inertia,Critical
+Duck,anemia,weightloss,fever,difficulty in breathing,diarrhea,Critical
+Duck,jaundice,emaciation,dejection,nasal discharge,fetopelvic disproportion,Critical
+Duck,anemia,swelling,stumbling,respiratory distress,abdominal pain,Critical
+Duck,convulsions,swelling,coughing,pneumonia,ulcers,Critical
+Duck,anemia,ruffled feathers,stumbling,nasal discharge,upset stomach,Critical
+Duck,seizures,swelling,muscle aches,nasal discharge,upset stomach,Critical
+Duck,seizures,swelling,coughing,halitosis,abdominal pain,Critical
+Duck,anemia,hairloss,stumbling,halitosis,abdominal pain,Critical
+Duck,anemia,scabs,loss of appetite,respiratory distress,upset stomach,Critical
+Duck,wasting,ruffled feathers,stumbling,nasal discharge,abdominal pain,Critical
+Duck,jaundice,ruffled feathers,pains,difficulty in breathing,upset stomach,Critical
+Duck,jaundice,scabs,weakness,nasal discharge,uteria inertia,Critical
+Duck,seizures,weightloss,skin rashes,respiratory distress,abdominal pain,Critical
+Duck,anemia,scabs,stumbling,halitosis,diarrhea,Critical
+Duck,jaundice,emaciation,coughing,respiratory distress,upset stomach,Critical
+Duck,wasting,scabs,coughing,difficulty in breathing,ulcers,Critical
+Duck,convulsions,weightloss,pains,nasal discharge,ulcers,Critical
+Duck,jaundice,emaciation,sweating,difficulty in breathing,fetopelvic disproportion,Critical
+Duck,seizures,ruffled feathers,skin rashes,pneumonia,diarrhea,Critical
+Duck,seizures,ruffled feathers,dejection,respiratory distress,upset stomach,Critical
+Duck,convulsions,emaciation,sweating,pneumonia,fetopelvic disproportion,Critical
+Duck,jaundice,ruffled feathers,pains,dyspnea,uteria inertia,Critical
+Duck,seizures,ruffled feathers,muscle aches,nasal discharge,abdominal pain,Critical
+Duck,convulsions,weightloss,skin rashes,difficulty in breathing,ulcers,Critical
+Duck,wasting,swelling,sweating,nasal discharge,fetopelvic disproportion,Critical
+Duck,anemia,swelling,dejection,difficulty in breathing,uteria inertia,Critical
+Duck,anemia,scabs,vomiting,halitosis,abdominal pain,Critical
+Duck,convulsions,ruffled feathers,weakness,dyspnea,upset stomach,Critical
+Duck,wasting,swelling,loss of appetite,respiratory distress,upset stomach,Critical
+Duck,jaundice,hairloss,weakness,pneumonia,ulcers,Critical
+Duck,anemia,weightloss,sweating,nasal discharge,diarrhea,Critical
+Duck,wasting,swelling,dejection,halitosis,upset stomach,Critical
+Duck,anemia,emaciation,loss of appetite,pneumonia,abdominal pain,Critical
+Duck,convulsions,emaciation,weakness,respiratory distress,diarrhea,Critical
+Elephant,convulsions,hairloss,stumbling,halitosis,ulcers,Critical
+Elephant,seizures,scabs,dejection,nasal discharge,abdominal pain,Critical
+Elephant,wasting,swelling,coughing,pneumonia,upset stomach,Critical
+Elephant,wasting,ruffled feathers,headache,nasal discharge,diarrhea,Critical
+Elephant,wasting,scabs,sneezing,halitosis,diarrhea,Critical
+Elephant,seizures,emaciation,dejection,nasal discharge,uteria inertia,Critical
+Elephant,anemia,scabs,sneezing,halitosis,fetopelvic disproportion,Critical
+Elephant,jaundice,ruffled feathers,fever,difficulty in breathing,ulcers,Critical
+Elephant,seizures,scabs,loss of appetite,pneumonia,abdominal pain,Critical
+Elephant,convulsions,ruffled feathers,vomiting,halitosis,fetopelvic disproportion,Critical
+Elephant,anemia,ruffled feathers,sweating,halitosis,ulcers,Critical
+Elephant,anemia,swelling,pains,dyspnea,diarrhea,Critical
+Elephant,convulsions,swelling,coughing,pneumonia,upset stomach,Critical
+Elephant,jaundice,emaciation,fever,halitosis,upset stomach,Critical
+Elephant,jaundice,scabs,sweating,halitosis,fetopelvic disproportion,Critical
+Elephant,seizures,hairloss,loss of appetite,pneumonia,diarrhea,Critical
+Elephant,convulsions,hairloss,sneezing,pneumonia,diarrhea,Critical
+Elephant,wasting,emaciation,loss of appetite,dyspnea,abdominal pain,Critical
+Elephant,anemia,emaciation,stumbling,respiratory distress,abdominal pain,Critical
+Elephant,jaundice,emaciation,weakness,pneumonia,ulcers,Critical
+Elephant,seizures,swelling,loss of appetite,halitosis,uteria inertia,Critical
+Elephant,jaundice,emaciation,loss of appetite,difficulty in breathing,ulcers,Critical
+Elephant,wasting,scabs,pains,respiratory distress,diarrhea,Critical
+Elephant,jaundice,ruffled feathers,vomiting,difficulty in breathing,ulcers,Critical
+Elephant,seizures,swelling,sweating,nasal discharge,ulcers,Critical
+Elephant,wasting,emaciation,skin rashes,pneumonia,upset stomach,Critical
+Elephant,convulsions,weightloss,loss of appetite,nasal discharge,diarrhea,Critical
+Elephant,seizures,swelling,fever,halitosis,upset stomach,Critical
+Elephant,seizures,emaciation,sneezing,dyspnea,fetopelvic disproportion,Critical
+Elephant,convulsions,scabs,headache,dyspnea,uteria inertia,Critical
+Elephant,jaundice,emaciation,weakness,dyspnea,diarrhea,Critical
+Elephant,wasting,emaciation,coughing,dyspnea,fetopelvic disproportion,Critical
+Elephant,seizures,swelling,sweating,halitosis,diarrhea,Critical
+Elephant,jaundice,weightloss,vomiting,difficulty in breathing,diarrhea,Critical
+Elephant,anemia,swelling,coughing,halitosis,upset stomach,Critical
+Elephant,wasting,scabs,skin rashes,dyspnea,fetopelvic disproportion,Critical
+Elephant,convulsions,scabs,stumbling,dyspnea,ulcers,Critical
+Elephant,jaundice,emaciation,muscle aches,respiratory distress,uteria inertia,Critical
+Elephant,seizures,emaciation,skin rashes,halitosis,ulcers,Critical
+Elephant,anemia,hairloss,vomiting,nasal discharge,ulcers,Critical
+Elephant,jaundice,weightloss,skin rashes,nasal discharge,upset stomach,Critical
+Elephant,wasting,ruffled feathers,muscle aches,nasal discharge,upset stomach,Critical
+Elephant,wasting,swelling,fever,respiratory distress,diarrhea,Critical
+Elephant,convulsions,scabs,fever,pneumonia,upset stomach,Critical
+Elephant,wasting,scabs,dejection,halitosis,diarrhea,Critical
+Elephant,seizures,ruffled feathers,dejection,nasal discharge,ulcers,Critical
+Elephant,jaundice,weightloss,skin rashes,difficulty in breathing,diarrhea,Critical
+Elephant,anemia,ruffled feathers,weakness,nasal discharge,diarrhea,Critical
+Elephant,wasting,emaciation,vomiting,respiratory distress,abdominal pain,Critical
+Elephant,jaundice,hairloss,dejection,pneumonia,ulcers,Critical
+Elephant,convulsions,scabs,vomiting,nasal discharge,upset stomach,Critical
+Elephant,seizures,scabs,vomiting,pneumonia,fetopelvic disproportion,Critical
+Elephant,jaundice,hairloss,dejection,halitosis,fetopelvic disproportion,Critical
+Elephant,anemia,swelling,headache,respiratory distress,ulcers,Critical
+Elephant,anemia,ruffled feathers,coughing,halitosis,abdominal pain,Critical
+Hamster,wasting,emaciation,vomiting,nasal discharge,diarrhea,Critical
+Hamster,seizures,swelling,headache,nasal discharge,ulcers,Critical
+Hamster,seizures,swelling,dejection,difficulty in breathing,uteria inertia,Critical
+Hamster,seizures,hairloss,headache,halitosis,uteria inertia,Critical
+Hamster,jaundice,weightloss,pains,difficulty in breathing,ulcers,Critical
+Hamster,convulsions,weightloss,vomiting,nasal discharge,uteria inertia,Critical
+Hamster,seizures,swelling,stumbling,respiratory distress,diarrhea,Critical
+Hamster,anemia,emaciation,sneezing,pneumonia,abdominal pain,Critical
+Hamster,seizures,emaciation,headache,pneumonia,ulcers,Critical
+Hamster,seizures,ruffled feathers,muscle aches,pneumonia,diarrhea,Critical
+Hamster,convulsions,swelling,dejection,halitosis,upset stomach,Critical
+Fowl,anemia,ruffled feathers,sneezing,nasal discharge,ulcers,Critical
+Fowl,wasting,ruffled feathers,stumbling,halitosis,uteria inertia,Critical
+Fowl,wasting,hairloss,sneezing,respiratory distress,abdominal pain,Critical
+Fowl,wasting,swelling,sneezing,nasal discharge,diarrhea,Critical
+Fowl,jaundice,emaciation,muscle aches,difficulty in breathing,abdominal pain,Critical
+Fowl,anemia,emaciation,weakness,halitosis,abdominal pain,Critical
+Fowl,anemia,ruffled feathers,stumbling,pneumonia,abdominal pain,Critical
+Fowl,convulsions,weightloss,weakness,difficulty in breathing,upset stomach,Critical
+Fowl,convulsions,ruffled feathers,vomiting,respiratory distress,diarrhea,Critical
+Fowl,jaundice,weightloss,vomiting,nasal discharge,ulcers,Critical
+Fowl,anemia,ruffled feathers,weakness,dyspnea,abdominal pain,Critical
+Fowl,convulsions,emaciation,fever,dyspnea,upset stomach,Critical
+Fowl,anemia,ruffled feathers,headache,respiratory distress,ulcers,Critical
+Fowl,convulsions,weightloss,muscle aches,nasal discharge,uteria inertia,Critical
+Fowl,convulsions,scabs,vomiting,difficulty in breathing,fetopelvic disproportion,Critical
+Fowl,wasting,emaciation,stumbling,halitosis,diarrhea,Critical
+Fowl,wasting,swelling,loss of appetite,halitosis,diarrhea,Critical
+Fowl,anemia,hairloss,loss of appetite,difficulty in breathing,diarrhea,Critical
+Fowl,wasting,emaciation,stumbling,dyspnea,fetopelvic disproportion,Critical
+Fowl,wasting,weightloss,vomiting,difficulty in breathing,abdominal pain,Critical
+Fowl,convulsions,weightloss,muscle aches,nasal discharge,uteria inertia,Critical
+Fowl,anemia,scabs,sweating,pneumonia,fetopelvic disproportion,Critical
+Fowl,anemia,hairloss,pains,nasal discharge,upset stomach,Critical
+Fowl,convulsions,swelling,sneezing,difficulty in breathing,ulcers,Critical
+Fowl,convulsions,weightloss,headache,halitosis,abdominal pain,Critical
+Fowl,wasting,hairloss,coughing,pneumonia,abdominal pain,Critical
+Fowl,anemia,ruffled feathers,dejection,halitosis,uteria inertia,Critical
+Fowl,convulsions,ruffled feathers,weakness,halitosis,abdominal pain,Critical
+Fowl,convulsions,hairloss,loss of appetite,dyspnea,uteria inertia,Critical
+Fowl,convulsions,ruffled feathers,loss of appetite,pneumonia,uteria inertia,Critical
+Fowl,wasting,weightloss,pains,nasal discharge,uteria inertia,Critical
+Fowl,anemia,emaciation,sweating,pneumonia,abdominal pain,Critical
+Fowl,anemia,emaciation,stumbling,pneumonia,diarrhea,Critical
+Fowl,jaundice,swelling,sneezing,halitosis,uteria inertia,Critical
+Fowl,wasting,emaciation,coughing,nasal discharge,upset stomach,Critical
+Fowl,anemia,swelling,sneezing,difficulty in breathing,fetopelvic disproportion,Critical
+Fowl,anemia,scabs,skin rashes,halitosis,abdominal pain,Critical
+Fowl,jaundice,hairloss,skin rashes,respiratory distress,abdominal pain,Critical
+Fowl,convulsions,swelling,sneezing,difficulty in breathing,abdominal pain,Critical
+Fowl,jaundice,ruffled feathers,stumbling,respiratory distress,uteria inertia,Critical
+Fowl,jaundice,ruffled feathers,vomiting,respiratory distress,ulcers,Critical
+Fowl,anemia,weightloss,skin rashes,difficulty in breathing,uteria inertia,Critical
+Fowl,jaundice,scabs,fever,dyspnea,diarrhea,Critical
+Fowl,seizures,emaciation,stumbling,halitosis,fetopelvic disproportion,Critical
+Fowl,wasting,ruffled feathers,vomiting,dyspnea,ulcers,Critical
+Fowl,anemia,weightloss,weakness,halitosis,upset stomach,Critical
+Fowl,wasting,ruffled feathers,muscle aches,halitosis,fetopelvic disproportion,Critical
+Fowl,seizures,hairloss,coughing,halitosis,abdominal pain,Critical
+Fowl,seizures,hairloss,headache,respiratory distress,diarrhea,Critical
+Fowl,wasting,emaciation,dejection,difficulty in breathing,fetopelvic disproportion,Critical
+Fowl,seizures,ruffled feathers,pains,respiratory distress,upset stomach,Critical
+Fowl,seizures,weightloss,headache,respiratory distress,fetopelvic disproportion,Critical
+Fowl,anemia,hairloss,sneezing,halitosis,diarrhea,Critical
+Fowl,jaundice,hairloss,sweating,dyspnea,fetopelvic disproportion,Critical
+Fowl,wasting,emaciation,dejection,dyspnea,ulcers,Critical
+Fowl,seizures,scabs,skin rashes,nasal discharge,fetopelvic disproportion,Critical
+Buffaloes,jaundice,scabs,coughing,respiratory distress,ulcers,Critical
+Buffaloes,convulsions,hairloss,coughing,difficulty in breathing,ulcers,Critical
+Buffaloes,anemia,weightloss,vomiting,difficulty in breathing,fetopelvic disproportion,Critical
+Buffaloes,wasting,scabs,weakness,pneumonia,fetopelvic disproportion,Critical
+Buffaloes,anemia,weightloss,stumbling,nasal discharge,uteria inertia,Critical
+Buffaloes,jaundice,scabs,vomiting,nasal discharge,upset stomach,Critical
+Buffaloes,wasting,ruffled feathers,skin rashes,pneumonia,abdominal pain,Critical
+Buffaloes,wasting,swelling,muscle aches,respiratory distress,upset stomach,Critical
+Buffaloes,convulsions,hairloss,dejection,halitosis,diarrhea,Critical
+Buffaloes,jaundice,swelling,muscle aches,dyspnea,ulcers,Critical
+Buffaloes,convulsions,scabs,loss of appetite,respiratory distress,fetopelvic disproportion,Critical
+Buffaloes,jaundice,emaciation,loss of appetite,difficulty in breathing,uteria inertia,Critical
+Buffaloes,anemia,swelling,vomiting,nasal discharge,uteria inertia,Critical
+Buffaloes,anemia,swelling,coughing,halitosis,diarrhea,Normal
+Buffaloes,convulsions,weightloss,vomiting,respiratory distress,upset stomach,Normal
+Buffaloes,seizures,scabs,vomiting,dyspnea,fetopelvic disproportion,Normal
+Buffaloes,wasting,hairloss,vomiting,respiratory distress,diarrhea,Normal
+Buffaloes,anemia,hairloss,coughing,pneumonia,upset stomach,Normal
+Buffaloes,jaundice,scabs,skin rashes,halitosis,diarrhea,Normal
+Buffaloes,seizures,scabs,skin rashes,respiratory distress,abdominal pain,Normal
+Buffaloes,wasting,emaciation,loss of appetite,difficulty in breathing,ulcers,Normal
+Buffaloes,seizures,hairloss,fever,pneumonia,uteria inertia,Normal
+Buffaloes,wasting,hairloss,muscle aches,pneumonia,uteria inertia,Normal
+Buffaloes,convulsions,scabs,coughing,respiratory distress,diarrhea,Critical
+Buffaloes,wasting,hairloss,pains,difficulty in breathing,uteria inertia,Critical
+Buffaloes,seizures,emaciation,sweating,difficulty in breathing,diarrhea,Critical
+Buffaloes,anemia,ruffled feathers,headache,respiratory distress,fetopelvic disproportion,Critical
+Buffaloes,anemia,scabs,sweating,dyspnea,fetopelvic disproportion,Critical
+Buffaloes,anemia,scabs,loss of appetite,dyspnea,ulcers,Critical
+Buffaloes,anemia,swelling,coughing,pneumonia,diarrhea,Critical
+Buffaloes,seizures,scabs,pains,halitosis,fetopelvic disproportion,Critical
+Buffaloes,wasting,emaciation,sweating,difficulty in breathing,diarrhea,Critical
+Buffaloes,convulsions,scabs,vomiting,pneumonia,uteria inertia,Critical
+Buffaloes,jaundice,hairloss,weakness,nasal discharge,diarrhea,Critical
+Buffaloes,seizures,hairloss,dejection,pneumonia,abdominal pain,Critical
+Buffaloes,wasting,emaciation,muscle aches,nasal discharge,diarrhea,Critical
+Buffaloes,convulsions,weightloss,coughing,halitosis,ulcers,Critical
+Buffaloes,seizures,scabs,skin rashes,nasal discharge,diarrhea,Critical
+Buffaloes,anemia,weightloss,skin rashes,dyspnea,ulcers,Critical
+Buffaloes,seizures,swelling,vomiting,difficulty in breathing,uteria inertia,Critical
+Buffaloes,anemia,ruffled feathers,sneezing,dyspnea,diarrhea,Critical
+Buffaloes,anemia,hairloss,coughing,difficulty in breathing,ulcers,Critical
+Buffaloes,wasting,swelling,vomiting,respiratory distress,ulcers,Critical
+Buffaloes,convulsions,scabs,pains,dyspnea,abdominal pain,Critical
+Buffaloes,seizures,emaciation,muscle aches,respiratory distress,fetopelvic disproportion,Critical
+Buffaloes,jaundice,ruffled feathers,sneezing,halitosis,fetopelvic disproportion,Critical
+Buffaloes,jaundice,ruffled feathers,skin rashes,difficulty in breathing,ulcers,Critical
+Buffaloes,anemia,swelling,weakness,halitosis,upset stomach,Critical
+Buffaloes,jaundice,emaciation,sneezing,halitosis,upset stomach,Critical
+Buffaloes,jaundice,weightloss,coughing,dyspnea,abdominal pain,Critical
+Buffaloes,convulsions,emaciation,pains,pneumonia,diarrhea,Critical
+Buffaloes,anemia,ruffled feathers,coughing,difficulty in breathing,fetopelvic disproportion,Critical
+Buffaloes,jaundice,weightloss,dejection,pneumonia,abdominal pain,Critical
+Buffaloes,wasting,hairloss,sweating,halitosis,diarrhea,Critical
+Buffaloes,anemia,emaciation,sweating,pneumonia,abdominal pain,Critical
+Buffaloes,convulsions,swelling,coughing,dyspnea,fetopelvic disproportion,Critical
+Buffaloes,anemia,hairloss,fever,halitosis,diarrhea,Critical
+Buffaloes,anemia,hairloss,headache,respiratory distress,fetopelvic disproportion,Critical
+Buffaloes,jaundice,scabs,stumbling,pneumonia,fetopelvic disproportion,Critical
+Buffaloes,seizures,scabs,stumbling,nasal discharge,fetopelvic disproportion,Critical
+Buffaloes,anemia,swelling,headache,nasal discharge,uteria inertia,Critical
+Buffaloes,wasting,swelling,sweating,nasal discharge,ulcers,Critical
+Buffaloes,anemia,ruffled feathers,sweating,pneumonia,ulcers,Critical
+Buffaloes,anemia,swelling,skin rashes,halitosis,ulcers,Critical
+Buffaloes,anemia,swelling,coughing,respiratory distress,abdominal pain,Critical
+Buffaloes,wasting,weightloss,sweating,dyspnea,ulcers,Critical
+Buffaloes,seizures,hairloss,loss of appetite,pneumonia,upset stomach,Critical
+Buffaloes,jaundice,emaciation,loss of appetite,dyspnea,diarrhea,Critical
+Buffaloes,wasting,hairloss,stumbling,difficulty in breathing,uteria inertia,Critical
+Buffaloes,seizures,weightloss,fever,halitosis,fetopelvic disproportion,Critical
+Buffaloes,seizures,ruffled feathers,headache,dyspnea,upset stomach,Critical
+Buffaloes,seizures,swelling,pains,respiratory distress,ulcers,Critical
+Buffaloes,convulsions,ruffled feathers,sweating,dyspnea,upset stomach,Critical
+Buffaloes,convulsions,emaciation,weakness,halitosis,ulcers,Critical
+Buffaloes,wasting,swelling,muscle aches,nasal discharge,diarrhea,Critical
+Buffaloes,seizures,swelling,sneezing,dyspnea,diarrhea,Critical
+Buffaloes,jaundice,ruffled feathers,coughing,nasal discharge,upset stomach,Critical
+Buffaloes,wasting,hairloss,muscle aches,dyspnea,fetopelvic disproportion,Critical
+Buffaloes,anemia,emaciation,loss of appetite,halitosis,uteria inertia,Critical
+Buffaloes,convulsions,scabs,weakness,pneumonia,upset stomach,Critical
+Buffaloes,anemia,scabs,muscle aches,nasal discharge,uteria inertia,Critical
+Buffaloes,jaundice,scabs,skin rashes,halitosis,diarrhea,Critical
+Buffaloes,wasting,scabs,headache,nasal discharge,uteria inertia,Critical
+Buffaloes,jaundice,hairloss,sneezing,dyspnea,abdominal pain,Critical
+Buffaloes,convulsions,emaciation,dejection,difficulty in breathing,abdominal pain,Critical
+Buffaloes,anemia,hairloss,dejection,halitosis,diarrhea,Critical
+Buffaloes,jaundice,weightloss,fever,dyspnea,uteria inertia,Critical
+Buffaloes,convulsions,emaciation,skin rashes,halitosis,uteria inertia,Critical
+Buffaloes,wasting,hairloss,headache,dyspnea,diarrhea,Critical
+Buffaloes,jaundice,ruffled feathers,sneezing,halitosis,ulcers,Critical
+Buffaloes,seizures,scabs,coughing,dyspnea,uteria inertia,Critical
+Buffaloes,seizures,weightloss,stumbling,difficulty in breathing,upset stomach,Critical
+Buffaloes,jaundice,hairloss,vomiting,nasal discharge,uteria inertia,Critical
+Buffaloes,convulsions,ruffled feathers,vomiting,halitosis,upset stomach,Critical
+Buffaloes,anemia,emaciation,skin rashes,dyspnea,upset stomach,Critical
+Buffaloes,seizures,emaciation,vomiting,halitosis,diarrhea,Critical
+Buffaloes,wasting,swelling,loss of appetite,dyspnea,upset stomach,Critical
+Buffaloes,anemia,hairloss,headache,nasal discharge,uteria inertia,Critical
+Buffaloes,seizures,scabs,pains,halitosis,abdominal pain,
+Buffaloes,convulsions,scabs,dejection,halitosis,abdominal pain,Critical
+Buffaloes,convulsions,swelling,skin rashes,dyspnea,uteria inertia,Critical
+Buffaloes,wasting,weightloss,loss of appetite,halitosis,ulcers,Critical
+Buffaloes,seizures,weightloss,sweating,difficulty in breathing,abdominal pain,Critical
+Buffaloes,convulsions,ruffled feathers,coughing,nasal discharge,ulcers,Critical
+Buffaloes,seizures,emaciation,loss of appetite,halitosis,abdominal pain,Critical
+Buffaloes,jaundice,scabs,fever,nasal discharge,ulcers,Critical
+Buffaloes,anemia,weightloss,sweating,pneumonia,uteria inertia,Critical
+Pig,seizures,weightloss,loss of appetite,difficulty in breathing,fetopelvic disproportion,Critical
+Pig,wasting,weightloss,dejection,nasal discharge,uteria inertia,Critical
+Pig,convulsions,emaciation,skin rashes,halitosis,ulcers,Critical
+Pig,jaundice,emaciation,stumbling,dyspnea,upset stomach,Critical
+Pig,convulsions,scabs,muscle aches,halitosis,upset stomach,Critical
+Pig,convulsions,ruffled feathers,sneezing,respiratory distress,upset stomach,Critical
+Pig,anemia,ruffled feathers,muscle aches,nasal discharge,ulcers,Critical
+Pig,seizures,hairloss,skin rashes,halitosis,ulcers,Critical
+Pig,seizures,hairloss,pains,dyspnea,uteria inertia,Critical
+Pig,seizures,emaciation,sneezing,respiratory distress,abdominal pain,Critical
+Pig,wasting,scabs,headache,respiratory distress,fetopelvic disproportion,Critical
+Pig,seizures,weightloss,muscle aches,respiratory distress,fetopelvic disproportion,Critical
+Pig,anemia,emaciation,weakness,nasal discharge,ulcers,Critical
+Pig,seizures,weightloss,sneezing,halitosis,upset stomach,Critical
+Pig,anemia,ruffled feathers,vomiting,dyspnea,abdominal pain,Critical
+Pig,wasting,weightloss,muscle aches,nasal discharge,diarrhea,Critical
+Pig,seizures,ruffled feathers,sneezing,dyspnea,upset stomach,Critical
+Pig,anemia,scabs,pains,difficulty in breathing,uteria inertia,Critical
+Pig,wasting,emaciation,loss of appetite,nasal discharge,diarrhea,Critical
+Pig,jaundice,hairloss,pains,pneumonia,uteria inertia,Critical
+Pig,seizures,scabs,muscle aches,halitosis,diarrhea,Critical
+Pig,wasting,emaciation,pains,pneumonia,fetopelvic disproportion,Critical
+Pig,wasting,swelling,vomiting,halitosis,diarrhea,Critical
+Pig,seizures,swelling,dejection,difficulty in breathing,fetopelvic disproportion,Critical
+Pig,jaundice,swelling,sneezing,nasal discharge,abdominal pain,Critical
+Pig,anemia,weightloss,fever,halitosis,fetopelvic disproportion,Critical
+Pig,seizures,hairloss,dejection,respiratory distress,uteria inertia,Critical
+Pig,anemia,emaciation,vomiting,halitosis,diarrhea,Critical
+Pig,convulsions,swelling,pains,respiratory distress,upset stomach,Critical
+Pig,seizures,swelling,sweating,respiratory distress,abdominal pain,Critical
+Pig,anemia,weightloss,muscle aches,pneumonia,upset stomach,Critical
+Pig,convulsions,swelling,vomiting,halitosis,abdominal pain,Critical
+Pig,jaundice,swelling,pains,pneumonia,uteria inertia,Critical
+Pig,anemia,weightloss,skin rashes,pneumonia,ulcers,Critical
+Pig,convulsions,emaciation,dejection,dyspnea,uteria inertia,Critical
+Pig,seizures,scabs,sneezing,respiratory distress,diarrhea,Critical
+Pig,jaundice,ruffled feathers,stumbling,halitosis,fetopelvic disproportion,Critical
+Pig,seizures,scabs,stumbling,halitosis,upset stomach,Critical
+Pig,jaundice,scabs,loss of appetite,halitosis,upset stomach,Critical
+Pig,jaundice,weightloss,coughing,difficulty in breathing,upset stomach,Critical
+Pig,convulsions,hairloss,sweating,halitosis,ulcers,Critical
+Pig,jaundice,ruffled feathers,pains,halitosis,diarrhea,Critical
+Pig,anemia,ruffled feathers,dejection,dyspnea,uteria inertia,Critical
+Pig,anemia,scabs,headache,halitosis,ulcers,Critical
+Pig,jaundice,scabs,stumbling,pneumonia,abdominal pain,Critical
+Pig,jaundice,ruffled feathers,vomiting,halitosis,ulcers,Critical
+Pig,anemia,emaciation,loss of appetite,pneumonia,upset stomach,Critical
+Pig,wasting,weightloss,skin rashes,respiratory distress,fetopelvic disproportion,Critical
+Pig,anemia,scabs,stumbling,respiratory distress,abdominal pain,Critical
+Pig,anemia,emaciation,sweating,difficulty in breathing,abdominal pain,Critical
+Pig,convulsions,emaciation,coughing,difficulty in breathing,diarrhea,Critical
+Pig,seizures,swelling,coughing,nasal discharge,ulcers,Critical
+Pig,wasting,swelling,stumbling,dyspnea,abdominal pain,Critical
+Pig,convulsions,emaciation,sneezing,difficulty in breathing,fetopelvic disproportion,Critical
+Pig,anemia,emaciation,skin rashes,pneumonia,fetopelvic disproportion,Critical
+Pig,convulsions,emaciation,dejection,difficulty in breathing,abdominal pain,Critical
+Pig,convulsions,emaciation,fever,pneumonia,fetopelvic disproportion,Critical
+Pig,wasting,swelling,sneezing,dyspnea,upset stomach,Critical
+Pig,wasting,weightloss,headache,nasal discharge,uteria inertia,Critical
+Pig,anemia,hairloss,pains,halitosis,fetopelvic disproportion,Critical
+Pig,jaundice,scabs,fever,respiratory distress,abdominal pain,Critical
+Pig,wasting,ruffled feathers,muscle aches,nasal discharge,abdominal pain,Critical
+Pig,convulsions,ruffled feathers,coughing,halitosis,diarrhea,Critical
+Tiger,convulsions,swelling,sweating,dyspnea,diarrhea,Critical
+Tiger,seizures,ruffled feathers,vomiting,halitosis,upset stomach,Critical
+Tiger,anemia,weightloss,vomiting,dyspnea,upset stomach,Critical
+Tiger,seizures,swelling,fever,pneumonia,abdominal pain,Critical
+Tiger,jaundice,weightloss,headache,dyspnea,abdominal pain,Critical
+Tiger,convulsions,swelling,skin rashes,respiratory distress,fetopelvic disproportion,Critical
+Tiger,seizures,weightloss,sneezing,dyspnea,upset stomach,Critical
+Tiger,jaundice,swelling,headache,halitosis,uteria inertia,Critical
+Tiger,jaundice,scabs,headache,pneumonia,uteria inertia,Critical
+Tiger,wasting,ruffled feathers,skin rashes,respiratory distress,uteria inertia,Critical
+Tiger,anemia,emaciation,skin rashes,nasal discharge,diarrhea,Critical
+Tiger,convulsions,emaciation,skin rashes,halitosis,abdominal pain,Critical
+Tiger,wasting,swelling,sneezing,dyspnea,diarrhea,Critical
+Tiger,wasting,emaciation,coughing,dyspnea,ulcers,Critical
+Tiger,jaundice,scabs,muscle aches,respiratory distress,ulcers,Critical
+Tiger,wasting,swelling,headache,nasal discharge,diarrhea,Critical
+Donkey,jaundice,swelling,headache,dyspnea,fetopelvic disproportion,Critical
+Donkey,anemia,ruffled feathers,coughing,respiratory distress,abdominal pain,Critical
+Donkey,jaundice,hairloss,loss of appetite,dyspnea,fetopelvic disproportion,Critical
+Donkey,seizures,swelling,fever,difficulty in breathing,uteria inertia,Critical
+Donkey,wasting,emaciation,dejection,halitosis,diarrhea,Critical
+Donkey,seizures,swelling,headache,pneumonia,abdominal pain,Critical
+Donkey,anemia,emaciation,muscle aches,halitosis,ulcers,Critical
+Donkey,wasting,swelling,loss of appetite,respiratory distress,upset stomach,Critical
+Donkey,seizures,swelling,fever,pneumonia,abdominal pain,Critical
+Donkey,jaundice,swelling,vomiting,dyspnea,uteria inertia,Critical
+Donkey,jaundice,weightloss,stumbling,respiratory distress,upset stomach,Critical
+Donkey,seizures,emaciation,muscle aches,difficulty in breathing,fetopelvic disproportion,Critical
+Donkey,seizures,scabs,pains,nasal discharge,uteria inertia,Critical
+Donkey,wasting,ruffled feathers,headache,difficulty in breathing,uteria inertia,Critical
+Donkey,jaundice,hairloss,loss of appetite,nasal discharge,uteria inertia,Critical
+Donkey,convulsions,swelling,stumbling,respiratory distress,upset stomach,Critical
+Donkey,convulsions,weightloss,stumbling,difficulty in breathing,abdominal pain,Critical
+Donkey,jaundice,scabs,loss of appetite,difficulty in breathing,ulcers,Critical
+Donkey,wasting,scabs,sneezing,dyspnea,upset stomach,Critical
+Donkey,wasting,ruffled feathers,weakness,dyspnea,uteria inertia,Critical
+Donkey,wasting,weightloss,loss of appetite,respiratory distress,fetopelvic disproportion,Critical
+Donkey,anemia,swelling,vomiting,pneumonia,upset stomach,Critical
+Donkey,jaundice,hairloss,coughing,halitosis,uteria inertia,Critical
+Donkey,convulsions,hairloss,muscle aches,pneumonia,fetopelvic disproportion,Critical
+Donkey,anemia,emaciation,coughing,difficulty in breathing,upset stomach,Critical
+Donkey,seizures,emaciation,muscle aches,pneumonia,diarrhea,Critical
+Donkey,convulsions,emaciation,stumbling,nasal discharge,upset stomach,Critical
+Donkey,anemia,weightloss,skin rashes,nasal discharge,abdominal pain,Critical
+Donkey,jaundice,weightloss,fever,nasal discharge,upset stomach,Critical
+Donkey,seizures,emaciation,muscle aches,dyspnea,uteria inertia,Critical
+Donkey,convulsions,emaciation,vomiting,nasal discharge,uteria inertia,Critical
+Donkey,wasting,emaciation,dejection,dyspnea,fetopelvic disproportion,Critical
+Donkey,wasting,weightloss,dejection,halitosis,upset stomach,Critical
+Donkey,anemia,ruffled feathers,stumbling,halitosis,uteria inertia,Critical
+Donkey,jaundice,hairloss,pains,halitosis,upset stomach,Critical
+Donkey,anemia,scabs,loss of appetite,difficulty in breathing,abdominal pain,Critical
+Donkey,wasting,scabs,dejection,pneumonia,diarrhea,Critical
+Deer,wasting,weightloss,skin rashes,halitosis,fetopelvic disproportion,Critical
+Deer,wasting,swelling,sweating,dyspnea,diarrhea,Critical
+Deer,convulsions,emaciation,sneezing,pneumonia,fetopelvic disproportion,Critical
+Deer,anemia,scabs,muscle aches,dyspnea,uteria inertia,Critical
+Deer,anemia,swelling,pains,dyspnea,fetopelvic disproportion,Critical
+Deer,convulsions,weightloss,weakness,respiratory distress,ulcers,Critical
+Deer,jaundice,swelling,loss of appetite,pneumonia,ulcers,Critical
+Deer,jaundice,ruffled feathers,dejection,halitosis,upset stomach,Critical
+Deer,seizures,emaciation,skin rashes,pneumonia,ulcers,Critical
+Deer,anemia,weightloss,stumbling,nasal discharge,ulcers,Critical
+Deer,jaundice,scabs,weakness,nasal discharge,diarrhea,Critical
+Deer,anemia,weightloss,dejection,dyspnea,upset stomach,Critical
+Deer,seizures,ruffled feathers,coughing,respiratory distress,uteria inertia,Critical
+Deer,convulsions,ruffled feathers,weakness,pneumonia,uteria inertia,Critical
+Deer,convulsions,hairloss,stumbling,pneumonia,fetopelvic disproportion,Critical
+Deer,convulsions,swelling,sneezing,nasal discharge,upset stomach,Critical
+Deer,wasting,hairloss,muscle aches,pneumonia,ulcers,Critical
+Deer,jaundice,hairloss,coughing,pneumonia,uteria inertia,Critical
+Deer,convulsions,emaciation,weakness,nasal discharge,ulcers,Critical
+Deer,convulsions,hairloss,sweating,difficulty in breathing,fetopelvic disproportion,Critical
+Deer,wasting,ruffled feathers,skin rashes,nasal discharge,uteria inertia,Critical
+Deer,jaundice,emaciation,fever,halitosis,abdominal pain,Critical
+Deer,wasting,hairloss,fever,halitosis,uteria inertia,Critical
+Deer,convulsions,swelling,skin rashes,respiratory distress,upset stomach,Critical
+Deer,seizures,ruffled feathers,weakness,halitosis,upset stomach,Critical
+Deer,jaundice,hairloss,dejection,respiratory distress,abdominal pain,Critical
+Deer,anemia,weightloss,vomiting,halitosis,uteria inertia,Critical
+Deer,jaundice,ruffled feathers,pains,difficulty in breathing,uteria inertia,Critical
+Deer,anemia,emaciation,skin rashes,respiratory distress,fetopelvic disproportion,Critical
+Deer,anemia,weightloss,fever,pneumonia,fetopelvic disproportion,Critical
+Buffaloes,anemia,ruffled feathers,fever,pneumonia,upset stomach,Critical
+Buffaloes,seizures,swelling,headache,dyspnea,upset stomach,Critical
+Buffaloes,convulsions,hairloss,stumbling,halitosis,abdominal pain,Critical
+Buffaloes,convulsions,ruffled feathers,vomiting,respiratory distress,abdominal pain,Critical
+Buffaloes,wasting,weightloss,weakness,dyspnea,upset stomach,Critical
+Buffaloes,anemia,weightloss,sweating,respiratory distress,uteria inertia,Critical
+Buffaloes,convulsions,ruffled feathers,pains,respiratory distress,diarrhea,Critical
+Buffaloes,wasting,weightloss,pains,dyspnea,diarrhea,Critical
+Buffaloes,wasting,emaciation,headache,difficulty in breathing,uteria inertia,Critical
+Buffaloes,convulsions,hairloss,coughing,halitosis,uteria inertia,Critical
+Buffaloes,jaundice,emaciation,sneezing,respiratory distress,ulcers,Critical
+Buffaloes,seizures,emaciation,sneezing,pneumonia,diarrhea,Critical
+Buffaloes,anemia,swelling,fever,respiratory distress,uteria inertia,Critical
+Buffaloes,wasting,ruffled feathers,vomiting,nasal discharge,abdominal pain,Critical
+Buffaloes,wasting,emaciation,coughing,nasal discharge,upset stomach,Critical
+Buffaloes,seizures,emaciation,weakness,halitosis,uteria inertia,Critical
+Buffaloes,seizures,hairloss,weakness,nasal discharge,diarrhea,Critical
+Buffaloes,convulsions,ruffled feathers,sweating,pneumonia,ulcers,Critical
+Buffaloes,wasting,hairloss,headache,pneumonia,ulcers,Critical
+Buffaloes,anemia,hairloss,loss of appetite,difficulty in breathing,diarrhea,Critical
+Buffaloes,anemia,weightloss,weakness,dyspnea,ulcers,Critical

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Health Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../static/pet-1.jpg'); /* Use a single background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Keep background fixed */
+        }
+
+        .content-background {
+            padding: 20px;
+            padding-top: 50px; /* Add padding to the top */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Allow for flexible height */
+        }
+
+        .heading {
+            font-size: 2.5em;
+            color: #4CAF50; /* Beautiful green color */
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow effect */
+        }
+
+        .form-container {
+            width: 350px;
+            background-color: rgba(255, 255, 255, 0.6); /* Transparent form */
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px white, 0 6px 20px white;
+            transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+            color: black;
+        }
+
+        .form-container:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+            box-shadow: 0 12px 25px rgba(2, 2, 2, 0.5), 0 8px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        .form-container label, select {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .form-container select {
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            background-color: white;
+            color: black;
+            transition: border-color 0.3s;
+        }
+
+        .form-container select:focus {
+            border-color: #28a745;
+        }
+
+        .form-container button {
+            padding: 12px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1em;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.2s ease-in-out;
+        }
+
+        .form-container button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .result img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style for refresh button */
+        .refresh-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .refresh-button img {
+            width: 60px; /* Larger size */
+            height: 60px;
+            border-radius: 50%; /* Make it round */
+            cursor: pointer;
+            transition: transform 0.2s;
+            border: 2px solid #28a745; /* Optional border for better visibility */
+        }
+
+        .refresh-button img:hover {
+            transform: rotate(360deg); /* Rotate on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content background -->
+    <div class="content-background">
+        <div>
+            <!-- Heading -->
+            <div class="heading">Health Assessment</div>
+            <div class="form-container">
+                <form id="prediction-form">
+                    <!-- Animal Name Dropdown -->
+                    <label for="animal_name">What type of animal are you concerned about?</label>
+                    <select name="animal_name" id="animal_name" required>
+                        <option value="" disabled selected>Select your animal</option>
+                        {% for animal in animals %}
+                            <option value="{{ animal }}">{{ animal }}</option>
+                        {% endfor %}
+                    </select>
+
+                    <!-- Blood Brain Disease Dropdown -->
+                    <label for="blood_brain_disease">Any signs of blood or brain issues:</label>
+                    <select name="blood_brain_disease" id="blood_brain_disease" required>
+                        <option value="" disabled selected>Select an option</option>
+                        {% for disease in blood_brain_diseases %}
+                            <option value="{{ disease }}">{{ disease }}</option>
+                        {% endfor %}
+                        <option value="None">None</option>
+                    </select>
+
+                    <!-- Appearance Disease Dropdown -->
+                    <label for="appearance_disease">What appearance related issue does your pet have?</label>
+                    <select name="appearance_disease" id="appearance_disease" required>
+                        <option value="" disabled selected>Select an option</option>
+                        {% for disease in appearance_diseases %}
+                            <option value="{{ disease }}">{{ disease }}</option>
+                        {% endfor %}
+                        <option value="None">None</option>
+                    </select>
+
+                    <!-- General Disease Dropdown -->
+                    <label for="general_disease">Is your pet experiencing any general illness?</label>
+                    <select name="general_disease" id="general_disease" required>
+                        <option value="" disabled selected>Select an option</option>
+                        {% for disease in general_diseases %}
+                            <option value="{{ disease }}">{{ disease }}</option>
+                        {% endfor %}
+                        <option value="None">None</option>
+                    </select>
+
+                    <!-- Lung Disease Dropdown -->
+                    <label for="lung_disease">Does your pet have any lung-related issues?</label>
+                    <select name="lung_disease" id="lung_disease" required>
+                        <option value="" disabled selected>Select an option</option>
+                        {% for disease in lung_diseases %}
+                            <option value="{{ disease }}">{{ disease }}</option>
+                        {% endfor %}
+                        <option value="None">None</option>
+                    </select>
+
+                    <!-- Abdominal Disease Dropdown -->
+                    <label for="abdominal_disease">Does your pet face any digestive-related issues?</label>
+                    <select name="abdominal_disease" id="abdominal_disease" required>
+                        <option value="" disabled selected>Select an option</option>
+                        {% for disease in abdominal_diseases %}
+                            <option value="{{ disease }}">{{ disease }}</option>
+                        {% endfor %}
+                        <option value="None">None</option>
+                    </select>
+
+                    <button type="submit">CHECK</button>
+                </form>
+
+                <!-- Refresh button -->
+                <div class="refresh-container">
+                    <div class="refresh-button">
+                        <img src="../static/refresh.png" alt="Refresh" id="refresh-button" />
+                    </div>
+                </div>
+
+                <!-- Result will be shown here -->
+                <div class="result" id="prediction-result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('prediction-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(this);
+
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('prediction-result').textContent = 'Error: ' + data.error;
+                } else {
+                    // Display image based on prediction
+                    document.getElementById('prediction-result').innerHTML = '<img src="/static/' + data.image + '" alt="Prediction result">';
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        // Refresh button event listener to reload the page
+        document.getElementById('refresh-button').addEventListener('click', function() {
+            window.location.reload();
+        });
+    </script>
+
+</body>
+</html>

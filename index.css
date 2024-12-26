@@ -1,0 +1,413 @@
+/* General body and text styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://stage.waltham.com/s3media/2023-03/waltham-kitten-growth-chart.jpg?VersionId=j7tgeGvBp2XEvVjH2taJDmsnQafyq78l");
+    color: #e3e3e3;
+    background-size: cover;
+   
+ 
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #cecece;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #f3f2f2;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 10px;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #4CAF50, #388E3C);
+    padding: 10px 20px;
+    position:static;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .navbar .logo {
+    height: 50px;
+    width: 50px;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: url(./images/logo.jpeg);
+    background-size: contain;
+
+    
+    
+    
+    /*background: url("data:image/jpeg;base64,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");
+   
+    */
+  }
+ 
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a,
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: white;
+    color: #388E3C;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  #contact-section {
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Relative positioning to use absolute inside */
+    text-align: center;
+    overflow: hidden; /* Hide anything overflowing */
+    animation: backgroundAnimation 10s linear;
+  }
+  #services-section {
+  background: url("https://stage.waltham.com/s3media/2023-03/waltham-kitten-growth-chart.jpg?VersionId=j7tgeGvBp2XEvVjH2taJDmsnQafyq78l");
+  background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Relative positioning to use absolute inside */
+    text-align: center;
+    overflow: hidden; /* Hide anything overflowing */
+    animation: backgroundAnimation 10s linear;
+  }
+  #about-section {
+    /* background: #000000;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Relative positioning to use absolute inside */
+  text-align: center;
+  overflow: hidden; /* Hide anything overflowing */
+  
+}
+  /* Hero Section and Carousel */
+ /* Home Section */
+#home-section {
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Relative positioning to use absolute inside */
+  text-align: center;
+  overflow: hidden; /* Hide anything overflowing */
+  animation: backgroundAnimation 10s linear;
+}
+/* @keyframes backgroundAnimation {
+  0% { background:url("https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg") ;
+    background-size: cover; }
+  50% { background:url("https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg");
+    background-size: cover; }
+    50% { background:url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/top-20-small-dog-breeds.jpeg.jpg");
+      background-size: cover; }
+  
+    100% { background:url("https://static.vecteezy.com/system/resources/thumbnails/002/098/203/small_2x/silver-tabby-cat-sitting-on-green-background-free-photo.jpg") ;
+      background-size: cover; }
+} */
+
+
+/* Position intro text over the carousel */
+.intro-text {
+  position: relative;
+  z-index: 2; /* Bring it above the carousel */
+  color: white; /* Change text color for better contrast */
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeSlideIn 1s ease forwards;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  animation: fadeSlideIn 1.5s ease forwards;
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  animation: fadeSlideIn 2s ease forwards;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: block;
+  margin: 20px auto;
+  z-index: 3; /* Above the images */
+  animation: fadeIn 2.5s ease forwards;
+}
+
+/* Fade and Slide Keyframes */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Add animation to the carousel */
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+/* Style for animal cards */
+.animal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.animal-card {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.animal-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 8px 10px 8px rgba(231, 229, 229, 0.2);
+}
+
+.animal-card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.animal-card button:hover {
+  background-color: #388E3C;
+}
+
+.animal-cards {
+  display: flex;              
+  flex-wrap: wrap;          
+  justify-content: space-between; 
+  gap: 20px;                 
+}
+
+.animal-card {
+  flex: 1 1 calc(50% - 20px); /* Set each card to take up 50% width, minus the gap */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visuals */
+  padding: 10px;             /* Optional: Add padding inside cards */
+  border-radius: 8px;       /* Optional: Add rounded corners */
+  text-align: center;        /* Center text inside cards */
+  position: relative;        /* Position for close button */
+}
+
+
+
+/* Hidden diet chart by default */
+/* Add a responsive container for diet charts */
+.diet-chart {
+  display: none; /* Initially hidden */
+  margin-top: 10px;
+  max-width: 100%; /* Ensure it doesn't exceed the page width */
+  
+   /* Allow horizontal scrolling if needed */
+}
+
+.diet-chart table {
+  width: 100%; /* Ensure the table takes up available space */
+  max-width: 100%; /* Limit the table width */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-collapse: collapse;
+  margin-top: 10px;
+  overflow-x: auto; /* Add horizontal scroll for smaller screens */
+  color: black;
+}
+
+.diet-chart th, .diet-chart td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.diet-chart th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.diet-chart td {
+  background-color: #f9f9f9;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .diet-chart {
+    max-width: 100%;
+    overflow-x: scroll; /* Horizontal scrolling for smaller screens */
+  }
+
+  .diet-chart table {
+    width: 600px; /* Set minimum width to prevent squeezing on small screens */
+  }
+}
+
+
+
+.close-btn {
+  background-color: #ff6666;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.diet-chart {
+    display: none;
+  
+}
+.close-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+/* Add animation for the about section cards */
+.animal-card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animal-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Keyframes for section animation (Optional) */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#about-section .animal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.animal-cards .animal-card {
+  flex: 0 0 45%; /* Two cards per row */
+  margin-bottom: 20px;
+  animation: slideIn 0.6s ease-out;
+  
+}
+
+.animal-card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(84, 117, 84);
+}
