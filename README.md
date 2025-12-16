@@ -63,7 +63,7 @@ professional veterinary diagnosis.
 <h3 align="center">Health Assessment Page</h3>
 
 <p align="center">
-  <img src="![pet](https://github.com/user-attachments/assets/6692c015-67c3-43c1-805f-dc50f29d0482)" 
+  <img src="https://github.com/user-attachments/assets/6692c015-67c3-43c1-805f-dc50f29d0482" 
        alt="Pet Guardian AI Health Assessment Page" 
        width="900"/>
   <br/>
