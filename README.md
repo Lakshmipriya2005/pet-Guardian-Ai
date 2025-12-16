@@ -1,92 +1,97 @@
-🎯 Project Overview
+<h1 align="center">🐾 Pet Guardian AI</h1>
 
-Pet Guardian AI allows users to enter pet-related details and symptoms through a web interface. Based on the input, the system predicts a possible health condition using a trained machine learning model and displays the result to the user.
+<p align="center">
+  A beginner-friendly web application that predicts possible pet health conditions 
+  based on user-provided symptoms using basic machine learning integration.
+</p>
 
-The project emphasizes clarity, simplicity, and practical learning rather than complex medical diagnosis.
+<hr/>
 
-🛠️ Technologies Used
-Frontend
+<h2>📌 Project Overview</h2>
 
-HTML
+<p>
+Pet Guardian AI is a web-based application designed to assist pet owners in identifying
+possible health concerns in pets by analyzing symptoms entered through a simple user interface.
+The project focuses on learning how machine learning models can be integrated into a web
+application using the Flask framework.
+</p>
 
-CSS
+<p>
+This application is intended for educational and learning purposes and does not replace
+professional veterinary diagnosis.
+</p>
 
-JavaScript
+<hr/>
 
-Backend
+<h2>🛠️ Technologies Used</h2>
 
-Python
+<ul>
+  <li><b>Frontend:</b> HTML, CSS, JavaScript</li>
+  <li><b>Backend:</b> Python, Flask</li>
+  <li><b>Machine Learning:</b> Scikit-learn, Pandas, NumPy</li>
+  <li><b>ML Model:</b> Random Forest Classifier</li>
+</ul>
 
-Flask
+<hr/>
 
-Machine Learning
+<h2>✨ Key Features</h2>
 
-Scikit-learn
+<ul>
+  <li>User-friendly interface for entering pet symptoms</li>
+  <li>Supports multiple symptom categories</li>
+  <li>Machine learning–based health prediction</li>
+  <li>Flask backend integration</li>
+  <li>Clear and readable prediction results</li>
+</ul>
 
-Pandas
+<hr/>
 
-NumPy
+<h2>🧠 Machine Learning Approach</h2>
 
-Random Forest Classifier
+<ul>
+  <li>Dataset preprocessing using Pandas</li>
+  <li>Label encoding for categorical data</li>
+  <li>Model training using Random Forest Classifier</li>
+  <li>Prediction based on user symptom inputs</li>
+  <li>Integration of trained model with Flask backend</li>
+</ul>
 
-✨ Key Features
+<hr/>
 
-Simple and user-friendly interface
+<h2>📸 Screenshots</h2>
 
-Accepts pet symptoms as user input
+<h3 align="center">Health Assessment Page</h3>
 
-Machine learning–based prediction system
+<p align="center">
+  <img src="screenshots/health-assessment.png" 
+       alt="Pet Guardian AI Health Assessment Page" 
+       width="900"/>
+  <br/>
+  <em>
+    Users can select the animal type and provide symptom-related details such as
+    general illness, lung issues, digestive problems, and appearance-related concerns.
+  </em>
+</p>
 
-Flask backend integration
+<hr/>
 
-Clear display of prediction results
+<h2>🚀 Future Enhancements</h2>
 
-🧠 Machine Learning Approach
+<ul>
+  <li>Improve prediction accuracy with enhanced datasets</li>
+  <li>Support for additional pet types</li>
+  <li>Improved UI/UX design</li>
+  <li>Prediction history storage</li>
+  <li>Cloud deployment</li>
+</ul>
 
-Dataset preprocessing using Pandas
+<hr/>
 
-Label encoding for categorical data
+<h2>📌 Conclusion</h2>
 
-Model training using Random Forest Classifier
-
-Prediction based on user-provided inputs
-
-Integration of the trained model with Flask for real-time predictions
-
-📸 Screenshots
-Home Page
-
-Add a screenshot showing the main user interface
-
-/screenshots/home.png
-
-Symptom Input Page
-
-Add a screenshot where users enter pet details and symptoms
-
-/screenshots/input.png
-
-Prediction Result Page
-
-Add a screenshot showing the predicted health condition
-
-/screenshots/result.png
-
-
-📌 Note: Create a screenshots folder in your repository and place the images inside it.
-
-🚀 Future Improvements
-
-Improve prediction accuracy with enhanced datasets
-
-Add support for more pet types
-
-Improve UI/UX design
-
-Add data storage for previous predictions
-
-Deploy the application for public access
-
-📌 Conclusion
-
-Pet Guardian AI is a beginner-friendly project that demonstrates how machine learning can be integrated into a web application using Flask. It helped in building a strong understanding of backend development, data preprocessing, and practical usage of machine learning models in real-world scenarios
+<p>
+Pet Guardian AI demonstrates how basic machine learning models can be integrated into a
+web application using Flask. This project helped in understanding backend development,
+data preprocessing, and real-world application of machine learning concepts in a
+simple and practical manner.
+</p>
